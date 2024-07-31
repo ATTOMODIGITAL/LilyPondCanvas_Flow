@@ -1,0 +1,5 @@
+/* Place any CSS overrides in this file. */
+.swiper-button--prev {
+  background:none
+  color:red !important
+}
