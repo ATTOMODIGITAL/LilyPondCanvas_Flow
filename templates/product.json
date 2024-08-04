@@ -63,18 +63,11 @@
           "type": "options",
           "settings": {
             "hide_out_of_stock_variants": false,
-            "variant_style": "swatches",
+            "variant_style": "dropdowns",
             "thumbnail_changes_variant": false,
             "size_guide_page": "",
             "size_option_name": "Color",
             "margin_bottom": 30
-          }
-        },
-        "live_product_options_app_block_LFPwcm": {
-          "type": "shopify:\/\/apps\/live-product-options\/blocks\/app-block\/88bfdf40-5e27-4962-a966-70c8d1e87757",
-          "disabled": true,
-          "settings": {
-            "product": "test-tshirt"
           }
         },
         "live_product_options_app_block_K6rBWa": {
@@ -185,6 +178,13 @@
           "settings": {
             "margin_bottom": 20
           }
+        },
+        "custom_liquid_YPrVG3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div data-live-product-options=\"{{ product.id }}\"><\/div>",
+            "margin_bottom": 20
+          }
         }
       },
       "block_order": [
@@ -194,7 +194,6 @@
         "f0f0e917-92a5-4957-a68e-2d0bb38d7819",
         "linked_products_TJjRLr",
         "options",
-        "live_product_options_app_block_LFPwcm",
         "live_product_options_app_block_K6rBWa",
         "quantity",
         "a7717974-ed85-4cde-80ef-4751178acf57",
@@ -205,7 +204,8 @@
         "9c341458-2d2c-4317-a2cc-346e220f53e0",
         "b3864090-4f25-4db2-bddb-c549e9472be6",
         "fbfe241f-1b44-41cd-ae22-e866bdad9aaf",
-        "4fdb087c-4728-4785-b270-a71a092b7898"
+        "4fdb087c-4728-4785-b270-a71a092b7898",
+        "custom_liquid_YPrVG3"
       ],
       "settings": {
         "enable_sticky": true,
