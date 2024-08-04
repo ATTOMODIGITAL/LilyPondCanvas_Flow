@@ -72,13 +72,13 @@
         },
         "live_product_options_app_block_LFPwcm": {
           "type": "shopify:\/\/apps\/live-product-options\/blocks\/app-block\/88bfdf40-5e27-4962-a966-70c8d1e87757",
-          "disabled": true,
           "settings": {
             "product": "test-tshirt"
           }
         },
         "live_product_options_app_block_K6rBWa": {
           "type": "shopify:\/\/apps\/live-product-options\/blocks\/app-block\/88bfdf40-5e27-4962-a966-70c8d1e87757",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
