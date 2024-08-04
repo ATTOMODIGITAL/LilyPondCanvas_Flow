@@ -63,18 +63,11 @@
           "type": "options",
           "settings": {
             "hide_out_of_stock_variants": false,
-            "variant_style": "dropdowns",
+            "variant_style": "swatches",
             "thumbnail_changes_variant": false,
             "size_guide_page": "",
             "size_option_name": "Color",
             "margin_bottom": 30
-          }
-        },
-        "custom_liquid_YPrVG3": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div data-live-options=\"{{ product.id }}\"><\/div>",
-            "margin_bottom": 20
           }
         },
         "live_product_options_app_block_K6rBWa": {
@@ -194,7 +187,6 @@
         "f0f0e917-92a5-4957-a68e-2d0bb38d7819",
         "linked_products_TJjRLr",
         "options",
-        "custom_liquid_YPrVG3",
         "live_product_options_app_block_K6rBWa",
         "quantity",
         "a7717974-ed85-4cde-80ef-4751178acf57",
