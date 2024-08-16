@@ -196,6 +196,8 @@
                         {{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
                       {%- else -%}
                         {{ 'cart.general.taxes_and_shipping_at_checkout' | t }}
+                        {{ 'cart.general.no_refund_if_customization' | t  }}
+                        {{ 'Hola' }}
                       {%- endif -%}
                     {%- endcapture -%}
                     <p class="text-center">{{ taxes_shipping_checkout }}</p>
