@@ -12,39 +12,18 @@
     "17235375481ffbf599": {
       "type": "apps",
       "blocks": {
-        "product_options_customizer_product_page_customizer_gfpzwj": {
-          "type": "shopify:\/\/apps\/product-options-customizer\/blocks\/product-page-customizer\/6857ca6c-35eb-4b6f-9d58-a039f31d9406",
+        "cpb_custom_product_builder_customproductbuilder_dawn_K3V6XG": {
+          "type": "shopify:\/\/apps\/cpb-custom-product-builder\/blocks\/customproductbuilder-dawn\/b7770087-aa6d-4fd6-8268-128702bb3d67",
           "settings": {
-            "pc_container_size": 100,
-            "pc_show_options_total": "initial",
-            "pc_customizations_total_text": "Customizations Total:",
-            "pc_show_preloader": "hide",
-            "pc_preloader_color": "",
-            "pc_ignore_redirect_command": true,
-            "pc_basic_label_text_color": "#000000",
-            "pc_basic_label_font_size": 14,
-            "pc_basic_label_bolden": "unset",
-            "pc_basic_label_space_above": 0,
-            "pc_basic_option_background_color": "#ffffff",
-            "pc_basic_option_text_color": "#000000",
-            "pc_basic_option_border_color": "#000000",
-            "pc_basic_option_border_style": "solid",
-            "pc_basic_option_border_width": 1,
-            "pc_basic_option_curve_the_corners": "none",
-            "pc_basic_option_font_size": 14,
-            "pc_basic_option_bolden": "none",
-            "pc_basic_option_width": 100,
-            "pc_basic_option_space_above": 0,
-            "pc_basic_option_space_below": 0,
-            "pc_basic_option_space_inside": 10,
-            "pc_advanced_custom_css": "",
-            "pc_advanced_custom_js": "",
-            "pc_show_image_swatch_preview": false
+            "personalize_it": true,
+            "personalizeit-button-text": "Personalize & Add To Cart",
+            "builder-version": "",
+            "builder-server": ""
           }
         }
       },
       "block_order": [
-        "product_options_customizer_product_page_customizer_gfpzwj"
+        "cpb_custom_product_builder_customproductbuilder_dawn_K3V6XG"
       ],
       "settings": {
         "section_padding_top": 0,
@@ -111,36 +90,6 @@
             "size_guide_page": "",
             "size_option_name": "Color",
             "margin_bottom": 30
-          }
-        },
-        "product_options_customizer_product_page_customizer_xhFFw7": {
-          "type": "shopify:\/\/apps\/product-options-customizer\/blocks\/product-page-customizer\/6857ca6c-35eb-4b6f-9d58-a039f31d9406",
-          "settings": {
-            "pc_container_size": 100,
-            "pc_show_options_total": "initial",
-            "pc_customizations_total_text": "Customizations Total:",
-            "pc_show_preloader": "hide",
-            "pc_preloader_color": "",
-            "pc_ignore_redirect_command": true,
-            "pc_basic_label_text_color": "#000000",
-            "pc_basic_label_font_size": 14,
-            "pc_basic_label_bolden": "unset",
-            "pc_basic_label_space_above": 0,
-            "pc_basic_option_background_color": "#FFFFFF",
-            "pc_basic_option_text_color": "#000000",
-            "pc_basic_option_border_color": "#000000",
-            "pc_basic_option_border_style": "solid",
-            "pc_basic_option_border_width": 1,
-            "pc_basic_option_curve_the_corners": "none",
-            "pc_basic_option_font_size": 14,
-            "pc_basic_option_bolden": "none",
-            "pc_basic_option_width": 100,
-            "pc_basic_option_space_above": 0,
-            "pc_basic_option_space_below": 0,
-            "pc_basic_option_space_inside": 10,
-            "pc_advanced_custom_css": "",
-            "pc_advanced_custom_js": "",
-            "pc_show_image_swatch_preview": false
           }
         },
         "quantity": {
@@ -254,7 +203,6 @@
         "f0f0e917-92a5-4957-a68e-2d0bb38d7819",
         "linked_products_TJjRLr",
         "options",
-        "product_options_customizer_product_page_customizer_xhFFw7",
         "quantity",
         "a7717974-ed85-4cde-80ef-4751178acf57",
         "2f3ddc8d-6514-403d-a884-88c9a0294300",
