@@ -170,6 +170,7 @@
       "see_more": "Mehr anzeigen",
       "subtotal": "Zwischensumme",
       "taxes_and_shipping_at_checkout": "Steuern und Versandkosten werden an der Kasse berechnet",
+      "no_refund_if_customization": "Por favor , tenga en cuenta. Si un producto es customizado , LilypondCanvas no asegura un reembolso / devolución.",
       "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand</a> werden an der Kasse berechnet",
       "taxes_included_but_shipping_at_checkout": "Steuer inklusive und Versandkosten werden an der Kasse berechnet",
       "taxes_included_and_shipping_policy_html": "Steuer inklusive. <a href=\"{{ link }}\">Versand</a> wird an der Kasse berechnet.",

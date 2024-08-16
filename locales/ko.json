@@ -170,6 +170,7 @@
       "see_more": "더 보기",
       "subtotal": "소계",
       "taxes_and_shipping_at_checkout": "결제 시 세금 및 배송비가 계산됩니다",
+      "no_refund_if_customization": "주의해 주세요. 제품이 맞춤 제작된 경우, LilypondCanvas는 환불/반품을 보장하지 않습니다.",
       "taxes_and_shipping_policy_at_checkout_html": "결제 시 세금 및 <a href=\"{{ link }}\">배송</a>이 계산됩니다",
       "taxes_included_but_shipping_at_checkout": "세금 포함 및 결제 시 배송비가 계산됩니다",
       "taxes_included_and_shipping_policy_html": "세금 포함. 결제 시 <a href=\"{{ link }}\">배송</a>이 계산됩니다.",

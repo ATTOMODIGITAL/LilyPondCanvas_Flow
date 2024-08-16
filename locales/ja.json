@@ -170,6 +170,7 @@
       "see_more": "詳細を見る",
       "subtotal": "小計",
       "taxes_and_shipping_at_checkout": "税金および配送料はチェックアウト時に計算されます",
+      "no_refund_if_customization": "ご注意ください。商品がカスタマイズされた場合、LilypondCanvasは返金/返品を保証しません。",
       "taxes_and_shipping_policy_at_checkout_html": "税金および<a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます",
       "taxes_included_but_shipping_at_checkout": "税金込み、配送料はチェックアウト時に計算されます",
       "taxes_included_and_shipping_policy_html": "税金込み。 <a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます。",

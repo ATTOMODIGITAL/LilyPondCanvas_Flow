@@ -170,6 +170,7 @@
       "see_more": "Voir plus",
       "subtotal": "Sous-total",
       "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés à la caisse",
+      "no_refund_if_customization": "Veuillez noter. Si un produit est personnalisé, LilypondCanvas ne garantit pas un remboursement/retour.",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais d'expédition</a> calculés à la caisse",
       "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition calculés à la caisse",
       "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais d'expédition</a> calculés à la caisse.",

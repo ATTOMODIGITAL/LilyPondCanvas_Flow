@@ -170,6 +170,7 @@
       "see_more": "Подробнее",
       "subtotal": "Итого",
       "taxes_and_shipping_at_checkout": "Налоги и доставка рассчитываются при оформлении заказа",
+      "no_refund_if_customization": "Обратите внимание. Если продукт был кастомизирован, LilypondCanvas не гарантирует возврат/обмен.",
       "taxes_and_shipping_policy_at_checkout_html": "Налоги и <a href=\"{{ link }}\">доставка</a> рассчитываются при оформлении заказа",
       "taxes_included_but_shipping_at_checkout": "Налог включен, доставка рассчитывается при оформлении заказа",
       "taxes_included_and_shipping_policy_html": "Налог включен. <a href=\"{{ link }}\">Доставка</a> рассчитывается при оформлении заказа.",
