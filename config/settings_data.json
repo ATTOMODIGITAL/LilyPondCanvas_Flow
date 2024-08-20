@@ -71,10 +71,14 @@
 
     ],
     "blocks": {
-      "1787840288555608609": {
-        "type": "shopify:\/\/apps\/live-product-options\/blocks\/app-embed\/88bfdf40-5e27-4962-a966-70c8d1e87757",
+      "8005431679485665647": {
+        "type": "shopify:\/\/apps\/customify-customize-product\/blocks\/button-customize\/0cb55c9f-fdee-4f0f-864c-f296929a4bbb",
         "disabled": false,
         "settings": {
+          "hide_buy_button": ".shopify-payment-button",
+          "hide_addtocart_button": "",
+          "liquid_code_product": "",
+          "liquid_code_cart": ""
         }
       }
     }
