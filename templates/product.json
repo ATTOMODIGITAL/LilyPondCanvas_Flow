@@ -28,8 +28,33 @@
             "margin_bottom": 20
           }
         },
+        "a7717974-ed85-4cde-80ef-4751178acf57": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "truck",
+            "text": "Worldwide shipping available",
+            "link": "",
+            "margin_bottom": 10
+          }
+        },
+        "2f3ddc8d-6514-403d-a884-88c9a0294300": {
+          "type": "stock-level-indicator",
+          "settings": {
+            "stock-level-indicator-style": "classic",
+            "bar-indicator-color": "standard",
+            "stock_indicator_animation": true,
+            "stock-range": 20,
+            "show-stock-count": false,
+            "stock-level-notice": "always",
+            "in-stock-message": "Ready to ship",
+            "low-stock-message": "Selling fast!",
+            "out-of-stock-message": "Back in stock soon",
+            "margin_bottom": 40
+          }
+        },
         "star_rating_Xzpi9G": {
           "type": "star_rating",
+          "disabled": true,
           "settings": {
             "show_rating_as": "count",
             "star_size": 16,
@@ -64,33 +89,20 @@
             "product": ""
           }
         },
+        "options_yBFVwQ": {
+          "type": "options",
+          "settings": {
+            "hide_out_of_stock_variants": false,
+            "variant_style": "swatches",
+            "thumbnail_changes_variant": true,
+            "size_guide_page": "",
+            "size_option_name": "Size",
+            "margin_bottom": 20
+          }
+        },
         "quantity": {
           "type": "quantity",
           "settings": {
-            "margin_bottom": 40
-          }
-        },
-        "a7717974-ed85-4cde-80ef-4751178acf57": {
-          "type": "text-with-icon",
-          "settings": {
-            "icon": "truck",
-            "text": "Worldwide shipping available",
-            "link": "",
-            "margin_bottom": 10
-          }
-        },
-        "2f3ddc8d-6514-403d-a884-88c9a0294300": {
-          "type": "stock-level-indicator",
-          "settings": {
-            "stock-level-indicator-style": "classic",
-            "bar-indicator-color": "standard",
-            "stock_indicator_animation": true,
-            "stock-range": 20,
-            "show-stock-count": false,
-            "stock-level-notice": "always",
-            "in-stock-message": "Ready to ship",
-            "low-stock-message": "Selling fast!",
-            "out-of-stock-message": "Back in stock soon",
             "margin_bottom": 40
           }
         },
@@ -171,13 +183,14 @@
       "block_order": [
         "title",
         "price",
+        "a7717974-ed85-4cde-80ef-4751178acf57",
+        "2f3ddc8d-6514-403d-a884-88c9a0294300",
         "star_rating_Xzpi9G",
         "f0f0e917-92a5-4957-a68e-2d0bb38d7819",
         "linked_products_TJjRLr",
         "live_product_options_app_block_THgAA7",
+        "options_yBFVwQ",
         "quantity",
-        "a7717974-ed85-4cde-80ef-4751178acf57",
-        "2f3ddc8d-6514-403d-a884-88c9a0294300",
         "buy_buttons",
         "a55b9011-1b1a-4353-9d97-7bdcd60949f2",
         "b0c19132-8e54-4664-b8ce-0a8c7f1f7737",
