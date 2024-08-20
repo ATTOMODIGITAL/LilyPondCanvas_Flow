@@ -61,6 +61,7 @@
         },
         "options": {
           "type": "options",
+          "disabled": true,
           "settings": {
             "hide_out_of_stock_variants": false,
             "variant_style": "swatches",
