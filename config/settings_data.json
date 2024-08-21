@@ -78,7 +78,7 @@
           "hide_buy_button": ".shopify-payment-button",
           "hide_addtocart_button": "",
           "liquid_code_product": "",
-          "liquid_code_cart": ""
+          "liquid_code_cart": "<script>\nwindow.cartItemsSelectorDefault ='.cart__row.table__section'\nwindow.cartItemPriceSelectorDefault='.money'\nwindow.cartSubTotalDefault='.cart__subtotal'\n<\/script>"
         }
       }
     }
