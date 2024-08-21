@@ -12,6 +12,14 @@
 <safe-load-scripts class="hidden">
   <script src="{{ 'component-product-information.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="product-form-information"></script>
 </safe-load-scripts>
+<safe-load-scripts class="hidden">
+  <script src="{{ 'component-product-information.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="product-form-information"></script>
+  <script>
+    // Asegúrate de que `product` esté disponible en este punto.
+    console.log({{ product | json }});
+    console.log({{product.selected_or_first_available_variant.id |  json}})
+  </script>
+</safe-load-scripts>
 
 {% liquid 
   assign section_id = 'quick-view-product-' | append: section.id 
@@ -314,6 +322,16 @@
                       {{ block.shopify_attributes }}>
                       {% render 'quantity-input' product: product, section_id: section_id %}
                     </div>
+
+                    {%- assign product_id = product.id -%}
+                    {%- assign variant_id = product.selected_or_first_available_variant.id -%}
+                    {%- assign custom_domain = "www.lilypondcanvas.com" -%}  
+                    {% assign selected_variant_id = product.selected_or_first_available_variant.id %}
+
+
+                    <button class="personalized_buy_button">
+                      <a class="personalized_buy_link" href="/apps/customify/view/{{product.handle}}/{{product_id}}?variant={{1}}&domain={{custom_domain}}">COMPRAR</a>
+                    </button>
                   
                   {% when 'buy_buttons' %}
                     {% comment %} ===== PAYMENT BUTTONS BLOCK ===== {% endcomment %}
