@@ -34,7 +34,19 @@
                         - http://docs.shopify.com/themes/filters/product-img-url
                     {% endcomment %}
                     {% capture cart_page_product_image_alt %}{{ item.image.alt | default: item.title | escape }}{% endcapture %}
-                    {% render 'responsive-image' with item.image, alt: cart_page_product_image_alt, blur: false %}
+
+                      {% assign cst_idx = shop.metafields.customify.idx %}
+        {% if item.properties[cst_idx] %}
+        <div>
+          <div>
+            <img src="{{ shop.url }}/apps/customify?show_custom=1&id={{ item.properties[cst_idx] }}" style='width: 60px; max-width: 100%; position:static !important;' alt="{{ item.title | escape }}" />
+            <img src="{{ shop.url }}/apps/customify?show_custom=1&type=full-2&id={{ item.properties[cst_idx] }}" style='width: 60px; max-width: 100%; position:static !important;' alt="{{ item.title | escape }}" onError="style.display = 'none';"/>
+          </div>
+        </div>
+        {% else %}
+          {% render 'responsive-image' with item.image, alt: cart_page_product_image_alt, blur: false %}
+      {% endif %}
+                    
                   </a>
                 </td>
                 <td class="cart__row--product-details">
