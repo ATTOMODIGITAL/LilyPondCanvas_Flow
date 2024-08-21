@@ -109,6 +109,7 @@
         },
         "b0c19132-8e54-4664-b8ce-0a8c7f1f7737": {
           "type": "collapsible-tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "Collapsible tab",
@@ -121,6 +122,7 @@
         },
         "9c341458-2d2c-4317-a2cc-346e220f53e0": {
           "type": "collapsible-tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "Collapsible tab",
@@ -133,6 +135,7 @@
         },
         "b3864090-4f25-4db2-bddb-c549e9472be6": {
           "type": "collapsible-tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "Collapsible tab",
