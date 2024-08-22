@@ -150,7 +150,7 @@
                       assign button_classes = 'btn--underlined'
                   endcase
                 %}
-								<div class="input-group">
+								<div id="custom-input-group" class="input-group">
                   <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" name="contact[email]" id="Email" class="input-group-field footer-email-input" aria-label="{{ 'general.newsletter_form.newsletter_email' | t }}">
                   <input type="hidden" name="contact[tags]" value="newsletter">
                   <span {% if block.settings.buttons_style == 'underlined' %}class="text-link-animated"{% endif %}>

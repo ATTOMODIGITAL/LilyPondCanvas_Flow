@@ -34,3 +34,10 @@
 .personalized_buy_link {
   color: #e6e5e7;
 }
+
+@media (max-width: 480px) {
+  #custom-input-group {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
