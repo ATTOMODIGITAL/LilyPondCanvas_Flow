@@ -57,6 +57,8 @@
     "type_card_title_font": "body",
     "type_card_price_font": "body",
     "show_product_rating": false,
+    "enable_quick_shop_desktop": false,
+    "enable_quick_shop_mobile": false,
     "quick_shop_button_display": "below_image",
     "quick_shop_button_style": "outline",
     "sm_facebook_link": "https:\/\/www.facebook.com\/?locale=es_ES",
