@@ -52,7 +52,7 @@
     "enable-additional-checkout-buttons": false,
     "product_card_text_alignment": "left",
     "product-grid": "wide",
-    "hover-effect": true,
+    "hover-effect": false,
     "show_badges": false,
     "type_card_title_font": "body",
     "type_card_price_font": "body",
