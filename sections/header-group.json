@@ -1,1 +1,121 @@
-{"type":"header","name":"Header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement":{"type":"announcement","disabled":true,"settings":{"announcement_text":"Announce something here","announcement_bg_color":"#2c3240","announcement_text_color":"#ffffff"}},"aebe68ef-8489-4ee8-86e6-12dc826943f1":{"type":"announcement","disabled":true,"settings":{"announcement_text":"Highlight promotions","announcement_bg_color":"#000000","announcement_text_color":"#ffffff"}}},"block_order":["announcement","aebe68ef-8489-4ee8-86e6-12dc826943f1"],"settings":{"desktop_social_icons":true}},"header":{"type":"header","blocks":{"content_4enBr3":{"type":"content","settings":{"mega-menu":"","image_1_aspect_ratio":"square","mega_image_header_1":"","mega_image_subheader_1":"","overlay_text_on_image_promo_1":true,"overlay_text_color_promo_1":"#FFFFFF","mega_image_link_1":"","show_promo_1_in_mobile_drawer":true,"image_2_aspect_ratio":"square","mega_image_header_2":"","mega_image_subheader_2":"","overlay_text_on_image_promo_2":true,"overlay_text_color_promo_2":"#FFFFFF","mega_image_link_2":"","show_promo_2_in_mobile_drawer":true}},"content_6e8YJC":{"type":"content","disabled":true,"settings":{"mega-menu":"","image_1_aspect_ratio":"square","mega_image_header_1":"","mega_image_subheader_1":"","overlay_text_on_image_promo_1":true,"overlay_text_color_promo_1":"#ffffff","mega_image_link_1":"","show_promo_1_in_mobile_drawer":true,"image_2_aspect_ratio":"square","mega_image_header_2":"","mega_image_subheader_2":"","overlay_text_on_image_promo_2":true,"overlay_text_color_promo_2":"#ffffff","mega_image_link_2":"","show_promo_2_in_mobile_drawer":true}}},"block_order":["content_4enBr3","content_6e8YJC"],"settings":{"sticky_header":true,"enable_search":true,"logo":"shopify:\/\/shop_images\/Lilypond_logo_horizontal.png","logo-placement":"left","logo_max_width":100,"logo_max_width_mobile":70,"logo_padding":20,"mobile_social_icons":false,"show_icons":true,"cart-style":"shopping-bag","cart_count":true,"overlay_header_homepage":true,"overlay_header_collection":false,"overlay_header_list_collection":false,"overlay_header_contact":false,"overlay_opacity":0,"show_currency_selector":true,"show_locale_selector":false,"main_linklist":"main-menu","dropdown_alignment":"left"}}},"order":["announcement-bar","header"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "announcement_text": "Announce something here",
+            "announcement_bg_color": "#2c3240",
+            "announcement_text_color": "#ffffff"
+          }
+        },
+        "aebe68ef-8489-4ee8-86e6-12dc826943f1": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "announcement_text": "Highlight promotions",
+            "announcement_bg_color": "#000000",
+            "announcement_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "announcement",
+        "aebe68ef-8489-4ee8-86e6-12dc826943f1"
+      ],
+      "settings": {
+        "desktop_social_icons": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "content_4enBr3": {
+          "type": "content",
+          "settings": {
+            "mega-menu": "",
+            "image_1_aspect_ratio": "square",
+            "mega_image_header_1": "",
+            "mega_image_subheader_1": "",
+            "overlay_text_on_image_promo_1": true,
+            "overlay_text_color_promo_1": "#ffffff",
+            "mega_image_link_1": "",
+            "show_promo_1_in_mobile_drawer": true,
+            "image_2_aspect_ratio": "square",
+            "mega_image_header_2": "",
+            "mega_image_subheader_2": "",
+            "overlay_text_on_image_promo_2": true,
+            "overlay_text_color_promo_2": "#ffffff",
+            "mega_image_link_2": "",
+            "show_promo_2_in_mobile_drawer": true
+          }
+        },
+        "content_6e8YJC": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "mega-menu": "",
+            "image_1_aspect_ratio": "square",
+            "mega_image_header_1": "",
+            "mega_image_subheader_1": "",
+            "overlay_text_on_image_promo_1": true,
+            "overlay_text_color_promo_1": "#ffffff",
+            "mega_image_link_1": "",
+            "show_promo_1_in_mobile_drawer": true,
+            "image_2_aspect_ratio": "square",
+            "mega_image_header_2": "",
+            "mega_image_subheader_2": "",
+            "overlay_text_on_image_promo_2": true,
+            "overlay_text_color_promo_2": "#ffffff",
+            "mega_image_link_2": "",
+            "show_promo_2_in_mobile_drawer": true
+          }
+        }
+      },
+      "block_order": [
+        "content_4enBr3",
+        "content_6e8YJC"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "enable_search": true,
+        "logo": "shopify:\/\/shop_images\/Lilypond_logo_horizontal.png",
+        "logo-placement": "left",
+        "logo_max_width": 100,
+        "logo_max_width_mobile": 70,
+        "logo_padding": 20,
+        "mobile_social_icons": false,
+        "show_icons": true,
+        "cart-style": "shopping-bag",
+        "cart_count": true,
+        "overlay_header_homepage": true,
+        "overlay_header_collection": false,
+        "overlay_header_list_collection": false,
+        "overlay_header_contact": false,
+        "overlay_opacity": 0,
+        "show_currency_selector": true,
+        "show_locale_selector": false,
+        "main_linklist": "main-menu",
+        "dropdown_alignment": "left"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
