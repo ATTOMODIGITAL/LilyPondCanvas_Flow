@@ -24,7 +24,7 @@
           "settings": {
             "price_font": "h3",
             "shipping_policy": false,
-            "tax_included": false,
+            "tax_included": true,
             "margin_bottom": 20
           }
         },
@@ -39,8 +39,9 @@
         },
         "2f3ddc8d-6514-403d-a884-88c9a0294300": {
           "type": "stock-level-indicator",
+          "disabled": true,
           "settings": {
-            "stock-level-indicator-style": "classic",
+            "stock-level-indicator-style": "bar",
             "bar-indicator-color": "standard",
             "stock_indicator_animation": true,
             "stock-range": 20,
@@ -92,7 +93,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_smart_checkout": true,
+            "show_smart_checkout": false,
             "enable_gift_card_recipient_form": true,
             "margin_bottom": 20
           }
