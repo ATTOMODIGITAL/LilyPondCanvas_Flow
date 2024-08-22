@@ -330,7 +330,7 @@
 
 
                     <button class="personalized_buy_button">
-                      <a class="personalized_buy_link" href="/apps/customify/view/{{product.handle}}/{{product_id}}?variant={{1}}&domain={{custom_domain}}">COMPRAR</a>
+                      <a class="personalized_buy_link" href="/apps/customify/view/{{product.handle}}/{{product_id}}?variant={{product.selected_or_first_available_variant.id}}&domain={{custom_domain}}">CUSTOMIZAR</a>
                     </button>
                   
                   {% when 'buy_buttons' %}

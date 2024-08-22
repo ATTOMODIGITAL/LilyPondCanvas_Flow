@@ -188,7 +188,7 @@
           {% if settings.giftwrap_gift_note %}
             <div class="grid__item two-thirds medium--one-whole small--one-whole">
               <label for="CartGiftNote" class="label-font">{{ 'products.general.giftwrap_note' | t }}</label>
-              <textarea id="CartGiftNote" class="input-full" placeholder="test" name="attributes[gift_note]">{{ cart.attributes.gift_note }}</textarea>
+              <textarea id="CartGiftNote" class="input-full" placeholder="Introduce tu mensaje" name="attributes[gift_note]">{{ cart.attributes.gift_note }}</textarea>
             </div>
           {% endif %}
           <div class="grid__item text-right{% if settings.cart_notes_enable %} one-third medium--one-whole small--one-whole{% endif %}">
