@@ -481,7 +481,7 @@
       "tags": "Etiquetas",
       "category": "Categoría",
       "type": "Tipo",
-      "include_taxes": "Incluye impuestos.",
+      "include_taxes": "IVA incluido",
       "shipping_policy_html": "<a href=\"{{ link }}\">Envío<\/a> calculado al finalizar la compra.",
       "quote": "Cita",
       "in_stock": "En stock",
