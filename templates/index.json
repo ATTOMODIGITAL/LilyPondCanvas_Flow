@@ -257,7 +257,7 @@
           "type": "button",
           "settings": {
             "first_button_link": "shopify:\/\/collections",
-            "first_button_label": "Shop now",
+            "first_button_label": "Comprar ahora",
             "second_button_link": "",
             "second_button_label": "",
             "buttons_style": "filled",
