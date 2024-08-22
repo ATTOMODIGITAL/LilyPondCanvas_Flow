@@ -456,9 +456,9 @@
       "regular_price": "Precio regular",
       "product_reviews": "Opiniones del producto",
       "yes": "Sí",
-      "giftwrap_label": "Envoltura de regalo",
-      "giftwrap_note": "Mensaje de regalo",
-      "giftwrap_note_placeholder": "Agrega tu mensaje de regalo aquí",
+      "giftwrap_label": "Embalaje de regalo",
+      "giftwrap_note": "¿Es para regalo?",
+      "giftwrap_note_placeholder": "Déjanos aquí tu mensaje...",
       "from_text_html": "Desde {{ price }}"
     },
     "product": {
