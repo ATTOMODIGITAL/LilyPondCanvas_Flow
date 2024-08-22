@@ -190,6 +190,7 @@
       "savings_html": "Estás ahorrando {{ price }}"
     },
     "label": {
+      "texto": "No se admiten cambios o devoluciones para productos personalizados.",
       "product": "Producto",
       "price": "Precio",
       "quantity": "Cantidad",
