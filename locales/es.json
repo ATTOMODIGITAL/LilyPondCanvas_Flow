@@ -181,7 +181,7 @@
       "taxes_and_shipping_at_checkout": "IVA includo. Los gastos de envío se calculan durante el proceso de compra",
       "no_refund_if_customization": "Si un producto se personaliza no se admitirán cambios o devoluciones.",
       "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\">envío<\/a> calculados en el pago",
-      "taxes_included_but_shipping_at_checkout_text": "No se admiten cambios o devoluciones para productos personalizados.",
+      "taxes_included_but_shipping_at_checkout_text": "No se admiten cambios o devoluciones en productos personalizados.",
       "taxes_included_but_shipping_at_checkout": "IVA includo. Los gastos de envío se calculan durante el proceso de compra.",
       "taxes_included_and_shipping_policy_html": "IVA incluido. <a href=\"{{ link }}\">Gastos de envío<\/a> se calculan durante el proceso de compra.",
       "update": "Actualizar carrito",
