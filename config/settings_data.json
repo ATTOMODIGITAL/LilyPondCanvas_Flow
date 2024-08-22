@@ -46,7 +46,7 @@
     "logo_font_size": 24,
     "announcement_text_size": 14,
     "announcement_text_spacing": 1,
-    "add_to_cart_action": "go_to_or_open_cart",
+    "add_to_cart_action": "show_added_message",
     "cart_notes_enable": true,
     "giftwrap_gift_note": true,
     "enable-additional-checkout-buttons": false,
