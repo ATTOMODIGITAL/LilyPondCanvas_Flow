@@ -74,7 +74,7 @@
           "type": "linked-products",
           "settings": {
             "option_name": "Tamaños disponibles: {{ product.metafields.shopify[\"accessory-size\"] | metafield_text: field: 'label' }}",
-            "swatches_size": "small",
+            "swatches_size": "medium",
             "swatches_aspect_ratio": "square",
             "linked_products": [
               "lilypond-large-tote-bag",
