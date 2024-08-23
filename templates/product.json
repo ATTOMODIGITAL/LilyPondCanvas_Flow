@@ -160,11 +160,11 @@
         "collection": "lilypond-totes-bags",
         "show_view_all": false,
         "buttons_style": "filled",
-        "section_padding_top": 60,
+        "section_padding_top": 0,
         "section_padding_bottom": 60,
-        "layout_style": "slider",
+        "layout_style": "grid",
         "products_to_show": 3,
-        "grid-desktop": 2,
+        "grid-desktop": 3,
         "grid-mobile": "1",
         "colors": "white"
       }
