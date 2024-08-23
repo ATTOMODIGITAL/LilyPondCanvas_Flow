@@ -912,6 +912,7 @@
       "blocks": {
         "text_8FaWFy": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "testimonial_text": "<p>\"Mi bolsa grande es ideal para transportar muestras y materiales a mis clientes\"<\/p>",
             "customer_name": "Veronica, Interiorista",
@@ -921,6 +922,7 @@
         },
         "text_bpJN9N": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "testimonial_text": "<p>\"I love my medium tote bag to carry my girls’ snacks when I pick them up from school\"<\/p>",
             "customer_name": "Genevieve, mom of two",
@@ -930,6 +932,7 @@
         },
         "text_pykNTx": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "testimonial_text": "<p>\"Nada supera a mi large tote bag para pasar el weekend fuera. En casa, tenemos una cada uno\"<\/p>",
             "customer_name": "Clara, mamá de cuatro niños",
@@ -944,7 +947,7 @@
         "text_pykNTx"
       ],
       "settings": {
-        "circle_images": true,
+        "circle_images": false,
         "title": "TESTIMONIALS",
         "description": "",
         "section_padding_top": 120,
