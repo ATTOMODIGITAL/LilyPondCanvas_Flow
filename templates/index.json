@@ -967,10 +967,10 @@
             "link": ""
           }
         },
-        "image_3iGRk4": {
+        "image_nTctky": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/testimonial_2.png",
+            "image": "shopify:\/\/shop_images\/testimonial_2_c48e8f86-3b7b-4c9d-acf0-c32a022c1ac3.png",
             "height_desktop": 128,
             "height_mobile": 60,
             "link": ""
@@ -988,7 +988,7 @@
       },
       "block_order": [
         "image_UK6YDY",
-        "image_3iGRk4",
+        "image_nTctky",
         "image_HyED9e"
       ],
       "custom_css": [
