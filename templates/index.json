@@ -944,12 +944,64 @@
         "text_pykNTx"
       ],
       "settings": {
-        "circle_images": false,
+        "circle_images": true,
         "title": "TESTIMONIALS",
         "description": "",
         "section_padding_top": 120,
-        "section_padding_bottom": 120,
+        "section_padding_bottom": 0,
         "colors": "white"
+      }
+    },
+    "scrolling_banner_iMa7UR": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_UK6YDY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial_1.png",
+            "height_desktop": 128,
+            "height_mobile": 60,
+            "link": ""
+          }
+        },
+        "image_3iGRk4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial_2.png",
+            "height_desktop": 128,
+            "height_mobile": 60,
+            "link": ""
+          }
+        },
+        "image_HyED9e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial_3.png",
+            "height_desktop": 128,
+            "height_mobile": 60,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UK6YDY",
+        "image_3iGRk4",
+        "image_HyED9e"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 80,
+        "section_padding_top": 0,
+        "section_padding_bottom": 60,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "color_scheme": "white"
       }
     }
   },
@@ -966,6 +1018,7 @@
     "scrolling_banner_Mg4x8i",
     "animated_text_Hb7Qhi",
     "collage_GkJBgg",
-    "testimonials_VK4rYj"
+    "testimonials_VK4rYj",
+    "scrolling_banner_iMa7UR"
   ]
 }
