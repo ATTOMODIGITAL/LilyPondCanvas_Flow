@@ -13,7 +13,7 @@
     cstJquery('#tab-ref-add_image').hide()
   })
 
-  cstJquery('#image_preview img').on('click', function(){
+  cstJquery(document).on('click','#image_preview img', function(){
     console.log('add image');
     cstJquery('#tab-ref-add_text').hide()
   })
