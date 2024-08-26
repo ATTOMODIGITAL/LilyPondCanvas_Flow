@@ -1,5 +1,8 @@
 <script>
   console.log('run customize')
+  setTimeout(function(){
+    cstJquery('#admin-bar-iframe').remove()
+  },2000)
   document.addEventListener('cstRemoveObjText',function(item){
     console.log('remove event text')
     cstJquery('#tab-ref-add_image').show()
