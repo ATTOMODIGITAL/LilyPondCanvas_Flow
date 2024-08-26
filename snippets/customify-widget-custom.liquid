@@ -4,11 +4,9 @@
     cstJquery('#admin-bar-iframe').remove()
   },2000)
   document.addEventListener('cstRemoveObjText',function(item){
-    console.log('remove event text')
     cstJquery('#tab-ref-add_image').show()
   })
   document.addEventListener('cstRemoveObjImage',function(item){
-    console.log('remove event image')
     cstJquery('#tab-ref-add_text').show()
   })
 
@@ -17,7 +15,6 @@
   })
 
   cstJquery(document).on('click','#image_preview img', function(){
-    console.log('add image');
     cstJquery('#tab-ref-add_text').hide()
   })
 </script>
