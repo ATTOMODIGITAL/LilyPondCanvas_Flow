@@ -2,8 +2,19 @@
   console.log('run customize')
   document.addEventListener('cstRemoveObjText',function(item){
     console.log('remove event text')
+    cstJquery('#tab-ref-add_image').show()
   })
   document.addEventListener('cstRemoveObjImage',function(item){
     console.log('remove event image')
+    cstJquery('#tab-ref-add_text').show()
+  })
+
+  cstJquery('#cst-insert-text').on('click',function(){
+    cstJquery('#tab-ref-add_image').hide()
+  })
+
+  cstJquery('#image_preview img').on('click', function(){
+    console.log('add image');
+    cstJquery('#tab-ref-add_text').hide()
   })
 </script>
