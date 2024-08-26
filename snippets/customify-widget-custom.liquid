@@ -1,8 +1,9 @@
 <script>
   console.log('run customize')
-    document.addEventListener('cstRemoveObj',function(item){
-    console.log('remove event')
-    console.log(item)
-    console.log(item.detail)
+  document.addEventListener('cstRemoveObjText',function(item){
+    console.log('remove event text')
+  })
+  document.addEventListener('cstRemoveObjImage',function(item){
+    console.log('remove event image')
   })
 </script>
