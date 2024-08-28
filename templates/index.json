@@ -289,7 +289,7 @@
         "layout_style": "grid",
         "products_to_show": 3,
         "grid-desktop": 3,
-        "grid-mobile": "2",
+        "grid-mobile": "1",
         "colors": "white"
       }
     },
