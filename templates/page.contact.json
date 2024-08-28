@@ -124,7 +124,7 @@
             "desktop_image": "shopify:\/\/shop_images\/IMG_6152.jpg",
             "mobile_image": "shopify:\/\/shop_images\/lifeguard-stand-on-grey-beach.jpg",
             "heading": "",
-            "heading_size": 30,
+            "heading_size": 25,
             "button_label": "",
             "url": "shopify:\/\/collections\/all",
             "buttons_style": "filled",
@@ -243,7 +243,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-adriannacalvo-20304137.png",
             "link": "",
-            "title": "Comprometidos con la sostenibilidad",
+            "title": "SOSTENIBILIDAD",
             "subheading": "Seleccionamos meticulosamente materiales ecológicos, minimizamos los desechos y trabajamos con procedimientos y estándares éticos.",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
@@ -258,7 +258,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-eva-bronzini-6569305.png",
             "link": "",
-            "title": "Diseño y tela",
+            "title": "DISEÑO Y TELA",
             "subheading": "Hecho con tela duradera y de alta calidad, presenta diseños originales que combinan perfectamente la funcionalidad con la moda",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
@@ -273,7 +273,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-chuck-2973392.png",
             "link": "",
-            "title": "Personalización",
+            "title": "PERSONALIZACIÓN",
             "subheading": "Ofrecemos bordados personalizados en todos nuestros bolsos. Añade un toque de sofisticación y glamour a tu bolsa",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
