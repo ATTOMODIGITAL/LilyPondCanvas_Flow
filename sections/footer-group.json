@@ -52,6 +52,55 @@
         "tab_content_QgGdqY": {
           "type": "tab_content",
           "settings": {
+            "question": "¿Cómo sabré cuánto costará mi pedido?",
+            "text": "<p>Simplemente tienes que añadir artículos al carrito de la compra y hacer \"click\" en Continuar para pasar por caja. El total de su pedido se mostrará en la caja, así como los gastos de envío cuando proceda.<\/p>"
+          }
+        },
+        "tab_content_nFdr8x": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Hay algún coste adicional que deba abonar una vez reciba mi pedido?",
+            "text": "<p>El total del pedido presentado en la caja es el importe exacto que se le facturará, y no habrá costes adicionales en el momento de la entrega.<\/p>"
+          }
+        },
+        "tab_content_W9m3Am": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Qué opciones de pago se admiten?",
+            "text": "<p>Nuestro sistema de pago admite Visa, MasterCard, PayPal y American Express. Pronto ofreceremos otras opciones de pago.<br\/><\/p>"
+          }
+        },
+        "tab_content_kVF6Md": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "tab_content_bgXLf9": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "tab_content_tJk9Px": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "tab_content_jPDJJK": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "tab_content_HKFkWc": {
+          "type": "tab_content",
+          "settings": {
             "question": "Place your question or heading here",
             "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
           }
@@ -63,7 +112,14 @@
         "tab_content_pYtX9A",
         "tab_content_QT3JPX",
         "tab_content_YWTtWk",
-        "tab_content_QgGdqY"
+        "tab_content_QgGdqY",
+        "tab_content_nFdr8x",
+        "tab_content_W9m3Am",
+        "tab_content_kVF6Md",
+        "tab_content_bgXLf9",
+        "tab_content_tJk9Px",
+        "tab_content_jPDJJK",
+        "tab_content_HKFkWc"
       ],
       "settings": {
         "title": "",
