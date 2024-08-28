@@ -247,15 +247,6 @@
     "image_with_text_overlay_i6Ly8x": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "heading_FFXnMP": {
-          "type": "heading",
-          "settings": {
-            "title": "Image with text overlay",
-            "font_size_desktop": 60,
-            "font_size_mobile": 34,
-            "heading_bottom_spacing": 20
-          }
-        },
         "button_t94NfT": {
           "type": "button",
           "settings": {
@@ -268,15 +259,23 @@
             "buttons_text": "#ffffff",
             "buttons_background": "#242424"
           }
+        },
+        "heading_FFXnMP": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text overlay",
+            "font_size_desktop": 60,
+            "font_size_mobile": 34,
+            "heading_bottom_spacing": 20
+          }
         }
       },
       "block_order": [
-        "heading_FFXnMP",
-        "button_t94NfT"
+        "button_t94NfT",
+        "heading_FFXnMP"
       ],
-      "disabled": true,
       "settings": {
-        "image_desktop": "shopify:\/\/shop_images\/IMG_6154.jpg",
         "height_desktop": "750px",
         "text_position_desktop": "left",
         "text_alignment_desktop": "left",
