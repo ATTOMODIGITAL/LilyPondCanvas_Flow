@@ -21,7 +21,7 @@
             "first_button_link": "shopify:\/\/collections\/all",
             "second_button_label": "",
             "second_button_link": "shopify:\/\/pages\/contact",
-            "buttons_style": "underlined",
+            "buttons_style": "filled",
             "image": "shopify:\/\/shop_images\/IMG_7364_59e35678-8a6a-4dc1-bb24-30783c086aef.jpg",
             "desktop-caption-heading-size": 60,
             "desktop-caption-body-text-size": 18,
@@ -33,7 +33,7 @@
             "image_overlay_opacity": 50,
             "caption-text": "#ffffff",
             "button-text": "#ffffff",
-            "button-background": "#242424"
+            "button-background": "#2c3240"
           }
         },
         "image_XLVtUk": {
@@ -45,7 +45,7 @@
             "first_button_link": "shopify:\/\/collections\/all",
             "second_button_label": "",
             "second_button_link": "shopify:\/\/pages\/contact",
-            "buttons_style": "underlined",
+            "buttons_style": "filled",
             "image": "shopify:\/\/shop_images\/single-yacht-on-the-water.jpg",
             "desktop-caption-heading-size": 60,
             "desktop-caption-body-text-size": 18,
@@ -57,7 +57,7 @@
             "image_overlay_opacity": 0,
             "caption-text": "#ffffff",
             "button-text": "#ffffff",
-            "button-background": "#242424"
+            "button-background": "#2c3240"
           }
         },
         "image_zJALe7": {
@@ -69,7 +69,7 @@
             "first_button_link": "shopify:\/\/collections\/all",
             "second_button_label": "",
             "second_button_link": "shopify:\/\/pages\/contact",
-            "buttons_style": "underlined",
+            "buttons_style": "filled",
             "image": "shopify:\/\/shop_images\/2v5qf86N_2x_1cfaf3a6-ca3b-4151-94f7-05a25d8f3d9c.jpg",
             "desktop-caption-heading-size": 60,
             "desktop-caption-body-text-size": 18,
@@ -82,7 +82,7 @@
             "image_overlay_opacity": 50,
             "caption-text": "#ffffff",
             "button-text": "#ffffff",
-            "button-background": "#242424"
+            "button-background": "#2c3240"
           }
         },
         "image_8mKXXg": {
@@ -94,7 +94,7 @@
             "first_button_link": "shopify:\/\/collections\/all",
             "second_button_label": "",
             "second_button_link": "shopify:\/\/pages\/contact",
-            "buttons_style": "underlined",
+            "buttons_style": "filled",
             "image": "shopify:\/\/shop_images\/IMG_6154.jpg",
             "desktop-caption-heading-size": 60,
             "desktop-caption-body-text-size": 18,
@@ -106,7 +106,7 @@
             "image_overlay_opacity": 50,
             "caption-text": "#ffffff",
             "button-text": "#ffffff",
-            "button-background": "#242424"
+            "button-background": "#2c3240"
           }
         }
       },
