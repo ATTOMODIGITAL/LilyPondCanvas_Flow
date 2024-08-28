@@ -667,6 +667,7 @@
         "image_R3RB3H",
         "text_jHrGtC"
       ],
+      "disabled": true,
       "settings": {
         "show_fade": false,
         "borders": false,
@@ -736,7 +737,7 @@
         "height_mobile": "full",
         "text_size_mobile": 22,
         "text_position_mobile": "left",
-        "section_margin_top": 0,
+        "section_margin_top": 95,
         "section_margin_bottom": 0,
         "colors": "white"
       }
