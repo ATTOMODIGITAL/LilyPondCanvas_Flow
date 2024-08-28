@@ -87,22 +87,22 @@
         "tab_content_tJk9Px": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "¿Cuál es el límite de caracteres al personalizar?",
+            "text": "<p>Los bordados de palabras pueden tener un máximo de 10 caracteres para las bolsas mediana y grande, y de 5 caracteres para la bolsa pequeña. Los monogramas ocupan aproximadamente el mismo espacio en cada producto, independientemente del número de caracteres. Por lo tanto, el tamaño y la presentación de los caracteres varían en función del estilo que elija y del número de caracteres. En general, cuantos más caracteres introduzca, más pequeños serán. <br\/><\/p>"
           }
         },
         "tab_content_jPDJJK": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "¿Es posible bordar a la vez un logotipo y una palabra?",
+            "text": "<p>Este tipo de pedidos especiales no están disponibles en la página web, pero pueden solicitarse. Envíenos un correo electrónico a info@lilypondcanvas.com para obtener más información.<\/p>"
           }
         },
         "tab_content_HKFkWc": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "¿A qué países enviáis?",
+            "text": "<p>Hacemos envíos a toda Europa.<\/p>"
           }
         }
       },
