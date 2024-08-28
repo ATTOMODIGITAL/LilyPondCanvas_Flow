@@ -276,7 +276,7 @@
         "heading_FFXnMP"
       ],
       "custom_css": [
-        ".image-with-text-overlay__grid--background {background-image: none;}"
+        ".section--image-with-text-overlay {max-height: 100px;}"
       ],
       "settings": {
         "height_desktop": "450px",
