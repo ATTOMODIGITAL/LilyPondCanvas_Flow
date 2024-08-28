@@ -28,7 +28,7 @@
             "text_position": "center_left",
             "mobile-caption-heading-size": 36,
             "mobile-caption-body-text-size": 16,
-            "mobile_text_position": "center_left",
+            "mobile_text_position": "bottom",
             "image_overlay": "#262428",
             "image_overlay_opacity": 50,
             "caption-text": "#ffffff",
@@ -115,6 +115,9 @@
         "image_XLVtUk",
         "image_zJALe7",
         "image_8mKXXg"
+      ],
+      "custom_css": [
+        ".swiper-pagination{display:none}"
       ],
       "settings": {
         "slide_transition_delay": 7,
