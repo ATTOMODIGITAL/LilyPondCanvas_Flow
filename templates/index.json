@@ -92,7 +92,7 @@
             "text": "Una tote, infinitas posibilidades",
             "first_button_label": "Comprar ya",
             "first_button_link": "shopify:\/\/collections\/all",
-            "second_button_label": "Saber más",
+            "second_button_label": "",
             "second_button_link": "shopify:\/\/pages\/contact",
             "buttons_style": "underlined",
             "image": "shopify:\/\/shop_images\/IMG_6154.jpg",
@@ -117,7 +117,7 @@
         "image_8mKXXg"
       ],
       "custom_css": [
-        ".swiper-pagination{display:none}"
+        ".swiper-pagination {display: none;}"
       ],
       "settings": {
         "slide_transition_delay": 7,
