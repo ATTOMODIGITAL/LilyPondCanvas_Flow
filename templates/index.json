@@ -118,7 +118,7 @@
       ],
       "custom_css": [
         ".swiper-pagination {display: none;}",
-        ".btn--underlined {background-color: #2c3240; padding: 2vh; border-radius: 0px}"
+        ".btn--underlined {background-color: #2c3240; padding: 2vh; border-radius: 8px;}"
       ],
       "settings": {
         "slide_transition_delay": 7,
@@ -243,58 +243,6 @@
         "section_padding_bottom": 0,
         "desktop_height": "full_screen",
         "mobile_height": "extra_large"
-      }
-    },
-    "image_with_text_overlay_i6Ly8x": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "button_t94NfT": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "shopify:\/\/collections",
-            "first_button_label": "Comprar ahora",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "buttons_bottom_spacing": 0,
-            "buttons_text": "#ffffff",
-            "buttons_background": "#2c3240"
-          }
-        },
-        "heading_FFXnMP": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Image with text overlay",
-            "font_size_desktop": 60,
-            "font_size_mobile": 34,
-            "heading_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "button_t94NfT",
-        "heading_FFXnMP"
-      ],
-      "custom_css": [
-        ".section--image-with-text-overlay {max-height: 130px;}"
-      ],
-      "settings": {
-        "height_desktop": "450px",
-        "text_position_desktop": "top_center",
-        "text_alignment_desktop": "left",
-        "caption_width_desktop": 50,
-        "height_mobile": "100vh",
-        "text_position_mobile": "right",
-        "text_alignment_mobile": "right",
-        "section_link": "",
-        "animation_style": "parallax",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "text_color": "#ffffff",
-        "caption_bg_color": "rgba(0,0,0,0)",
-        "image_overlay_color": "#ffffff",
-        "image_overlay_opacity": 100
       }
     },
     "rich_text_VcennU": {
@@ -1017,7 +965,6 @@
   "order": [
     "slideshow_6DNeiM",
     "slideshow_8nKyph",
-    "image_with_text_overlay_i6Ly8x",
     "rich_text_VcennU",
     "featured_collection_j4rdMr",
     "shop_the_look_gKJmit",
