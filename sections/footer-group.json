@@ -11,6 +11,69 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "accordion_DjXhMD": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_9N7NmM": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿De qué material están hechas las canvas tote bags de LilyPondCanvas?",
+            "text": "<p>Están fabricados con algodón 100% natural y pintados con pigmentos naturales. Todas las materias primas son completamente seguras y certificadas.<\/p>"
+          }
+        },
+        "tab_content_99rLGk": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Cómo se fabrican sus productos? ¿Y dónde están hechos?",
+            "text": "<p>Nuestras bolsas están hechas a mano en Asia mediante un proceso totalmente artesanal. <\/p>"
+          }
+        },
+        "tab_content_pYtX9A": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿El producto es biodegradable?",
+            "text": "<p>El algodón natural es biodegradable en un proceso que puede tardar hasta una década, pero el proceso puede acelerarse cuando se expone a la luz solar, el calor, la humedad y el aire fresco.<\/p>"
+          }
+        },
+        "tab_content_QT3JPX": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Mi producto tiene algunas pequeñas imperfecciones, ¿es normal?",
+            "text": "<p>Nuestras bolsas están fabricadas con algodón 100% natural. Están hechas a mano y tintadas con tintes naturales, por lo que las pequeñas imperfecciones o colores ligeramente diferentes son habituales. No es una bolsa de plástico sintético. <\/p>"
+          }
+        },
+        "tab_content_YWTtWk": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Cómo cuido adecuadamente mi canvas tote bag?",
+            "text": "<p>Diluya una pequeña cantidad de detergente suave en agua, sumerja una esponja o un trapo de color claro en la solución, escúrralo para que esté húmedo y frote las manchas y las partes sucias de la bolsa, trabajando a contrapelo. Repita la operación hasta que desaparezcan las manchas y deje que la bolsa se seque al aire antes de utilizarla.<\/p>"
+          }
+        },
+        "tab_content_QgGdqY": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_9N7NmM",
+        "tab_content_99rLGk",
+        "tab_content_pYtX9A",
+        "tab_content_QT3JPX",
+        "tab_content_YWTtWk",
+        "tab_content_QgGdqY"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "faq_icon": "plus_minus",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
     "footer-main": {
       "type": "footer-main",
       "blocks": {
@@ -50,8 +113,8 @@
         "newsletter"
       ],
       "settings": {
-        "alignment": "left",
-        "heading_font_size": 20,
+        "alignment": "center",
+        "heading_font_size": 19,
         "color_scheme": "dark"
       }
     },
@@ -68,6 +131,7 @@
     }
   },
   "order": [
+    "accordion_DjXhMD",
     "footer-main",
     "footer-bottom"
   ]
