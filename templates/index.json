@@ -275,9 +275,12 @@
         "button_t94NfT",
         "heading_FFXnMP"
       ],
+      "custom_css": [
+        ".image-with-text-overlay__grid--background {background-image: none;}"
+      ],
       "settings": {
-        "height_desktop": "750px",
-        "text_position_desktop": "left",
+        "height_desktop": "450px",
+        "text_position_desktop": "top_center",
         "text_alignment_desktop": "left",
         "caption_width_desktop": 50,
         "height_mobile": "100vh",
@@ -290,7 +293,7 @@
         "text_color": "#ffffff",
         "caption_bg_color": "rgba(0,0,0,0)",
         "image_overlay_color": "#ffffff",
-        "image_overlay_opacity": 0
+        "image_overlay_opacity": 100
       }
     },
     "rich_text_VcennU": {
