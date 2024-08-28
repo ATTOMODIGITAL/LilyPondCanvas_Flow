@@ -544,7 +544,7 @@
         "heading_G7fRBP": {
           "type": "heading",
           "settings": {
-            "title": "Compras Empresariales y al por Mayor",
+            "title": "PEDIDOS CORPORATIVOS",
             "font_size_desktop": 28,
             "font_size_mobile": 25,
             "heading_bottom_spacing": 25
@@ -553,7 +553,7 @@
         "text_kWP7mU": {
           "type": "text",
           "settings": {
-            "text": "<p>Si estás buscando hacer un pedido grande o eres parte de una empresa importante, estamos aquí para ayudarte. Nos especializamos en crear tote bags personalizadas que se ajusten a tus necesidades. No dudes en contactarnos para obtener más detalles y conversar sobre tu pedido.<\/p>",
+            "text": "<p>Para eventos, convenciones, elementos corporativos o pedidos superiores a 20 unidades contacta con nosotros a <\/p>",
             "font_size_desktop": 16,
             "font_size_mobile": 16,
             "text_bottom_spacing": 10
@@ -563,7 +563,7 @@
           "type": "button",
           "settings": {
             "first_button_link": "shopify:\/\/collections",
-            "first_button_label": "Contáctanos",
+            "first_button_label": "info@lilypondcanvas.com",
             "second_button_link": "",
             "second_button_label": "",
             "buttons_style": "underlined",
