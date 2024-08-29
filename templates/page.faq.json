@@ -9,65 +9,6 @@
 */
 {
   "sections": {
-    "image_with_text_overlay_VUCbdf": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_hi6wPp": {
-          "type": "heading",
-          "settings": {
-            "title": "Image with text overlay",
-            "font_size_desktop": 28,
-            "font_size_mobile": 28,
-            "heading_bottom_spacing": 25
-          }
-        },
-        "text_iwXneH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Add an image paired with text to give focus to your chosen product, collection, or blog post.<\/p>",
-            "font_size_desktop": 16,
-            "font_size_mobile": 16,
-            "text_bottom_spacing": 20
-          }
-        },
-        "button_LakT3U": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "shopify:\/\/collections",
-            "first_button_label": "Shop now",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "buttons_bottom_spacing": 20,
-            "buttons_text": "#FFFFFF",
-            "buttons_background": "#242424"
-          }
-        }
-      },
-      "block_order": [
-        "heading_hi6wPp",
-        "text_iwXneH",
-        "button_LakT3U"
-      ],
-      "disabled": true,
-      "settings": {
-        "height_desktop": "original",
-        "text_position_desktop": "center",
-        "text_alignment_desktop": "center",
-        "caption_width_desktop": 50,
-        "height_mobile": "original",
-        "text_position_mobile": "center",
-        "text_alignment_mobile": "center",
-        "section_link": "",
-        "animation_style": "none",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "text_color": "#242424",
-        "caption_bg_color": "rgba(0,0,0,0)",
-        "image_overlay_color": "#FFFFFF",
-        "image_overlay_opacity": 0
-      }
-    },
     "main": {
       "type": "template--page",
       "disabled": true,
@@ -76,44 +17,97 @@
         "page_width": "content"
       }
     },
-    "16457242689a58d7f3": {
-      "type": "accordion",
+    "rich_text_hfgM6X": {
+      "type": "rich-text",
       "blocks": {
-        "164572426857089649-0": {
-          "type": "tab_content",
+        "heading_ybwE63": {
+          "type": "heading",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "heading": "RETURNS",
+            "heading--text-size": 30
           }
         },
-        "164572426857089649-1": {
-          "type": "tab_content",
+        "richtext_hLEk6E": {
+          "type": "richtext",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
-          }
-        },
-        "164572426857089649-2": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "text": "<p><strong> If for any reason you are not 100% satisfied with your purchase, you may return it within 30 days of purchase for a refund. Please contact us at info@lilypondcanvas.com, and we will provide you with further instructions. Understandably, we only accept returns if the product is in the original packaging, unused, uncut hangtag, wear and tear, marks\/scratches, alterations, or any kind of damage. <\/strong><\/p><p><strong>We will process the refund as soon as we receive the returned items. Please allow 1 week to process the refund.<\/strong><\/p><p><strong>Due to the irreversible nature of the customization, this return policy is not valid however for personalized items. Since the product is personalized according to the customer´s specific instructions, LilyPondCanvas cannot accept any returns once production or customization has started. <\/strong><\/p>",
+            "text_size": 16
           }
         }
       },
       "block_order": [
-        "164572426857089649-0",
-        "164572426857089649-1",
-        "164572426857089649-2"
+        "heading_ybwE63",
+        "richtext_hLEk6E"
       ],
-      "disabled": true,
       "settings": {
-        "title": "Frequently asked questions",
-        "description": "",
-        "faq_icon": "caret",
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 75,
+        "section_padding_bottom": 70,
+        "colors": "dark"
+      }
+    },
+    "rich_text_Ypjnzp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KgUdQj": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHIPPING AND DELIVERY",
+            "heading--text-size": 30
+          }
+        },
+        "richtext_XkcVM3": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><strong>Personalized orders can take up to 7 business days (does not include holidays and weekends) to be delivered. Orders will be delivered by DHL. <\/strong><\/p><p><strong>We will email you the tracking number as soon as the order is shipped. <\/strong><\/p><p><strong>Contact us on info@lilypondcanvas.com with any questions you have.<\/strong><\/p>",
+            "text_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_KgUdQj",
+        "richtext_XkcVM3"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "center",
         "section_padding_top": 60,
         "section_padding_bottom": 60,
-        "colors": "white"
+        "colors": "dark"
+      }
+    },
+    "rich_text_UwzrJH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_feQcbx": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHOLESALE",
+            "heading--text-size": 30
+          }
+        },
+        "richtext_NktVLB": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><strong>Are you looking for a beautiful personalised gift for you event or are you interested in carrying our products in your store? Get in touch with us for tailored solutions to best fit your business needs. Contact us and discover how we can support your business with quality products and excellent service.<\/strong><\/p><p><strong>Please note that wholesale prices apply to orders above 20 units.<\/strong><\/p><p><strong>Existing Customer? Sign in here.<\/strong><\/p><p><strong>New Customers? Please contact <\/strong><a href=\"mailto:info@lilypondcanvas.com\"><span style=\"text-decoration:underline\"><strong>info@lilypondcanvas.com<\/strong><\/span><\/a><\/p>",
+            "text_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_feQcbx",
+        "richtext_NktVLB"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "dark"
       }
     },
     "164572438470d85add": {
@@ -234,45 +228,13 @@
         "section_padding_bottom": 60,
         "colors": "dark"
       }
-    },
-    "1645724501b902ee9b": {
-      "type": "rich-text",
-      "blocks": {
-        "6d07b405-3374-4f17-b28d-17e359b5102b": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Si tienes cualquier otra duda no dudes en contactarnos.<\/p>",
-            "text_size": 14
-          }
-        },
-        "f391f3ae-8651-4404-a582-ed557905006e": {
-          "type": "button",
-          "settings": {
-            "button_link": "shopify:\/\/pages\/contact",
-            "button_text": "Contacto",
-            "buttons_style": "filled"
-          }
-        }
-      },
-      "block_order": [
-        "6d07b405-3374-4f17-b28d-17e359b5102b",
-        "f391f3ae-8651-4404-a582-ed557905006e"
-      ],
-      "settings": {
-        "section_width": "narrow",
-        "text_alignment_desktop": "left",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 60,
-        "section_padding_bottom": 60,
-        "colors": "dark"
-      }
     }
   },
   "order": [
-    "image_with_text_overlay_VUCbdf",
     "main",
-    "16457242689a58d7f3",
-    "164572438470d85add",
-    "1645724501b902ee9b"
+    "rich_text_hfgM6X",
+    "rich_text_Ypjnzp",
+    "rich_text_UwzrJH",
+    "164572438470d85add"
   ]
 }
