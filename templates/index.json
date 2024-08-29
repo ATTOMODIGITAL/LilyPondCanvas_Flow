@@ -730,6 +730,9 @@
         "text_static_bWKAdB",
         "button_itxHN3"
       ],
+      "custom_css": [
+        ".animated-text--content{background-color: blue}"
+      ],
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/bg.png",
         "height_desktop": "l",
