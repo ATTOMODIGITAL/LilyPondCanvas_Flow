@@ -139,12 +139,92 @@
             "question": "¿El producto es biodegradable?",
             "text": "<p>El algodón natural es biodegradable en un proceso que puede tardar hasta una década, pero el proceso puede acelerarse cuando se expone a la luz solar, el calor, la humedad y el aire fresco.<\/p>"
           }
+        },
+        "tab_content_6GbgAA": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Mi producto tiene algunas pequeñas imperfecciones, ¿es normal?",
+            "text": "<p>Nuestras bolsas están fabricadas con algodón 100% natural. Están hechas a mano y tintadas con tintes naturales, por lo que las pequeñas imperfecciones o colores ligeramente diferentes son habituales. No es una bolsa de plástico sintético. <\/p>"
+          }
+        },
+        "tab_content_6X9Hhy": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Cómo cuido adecuadamente mi canvas tote bag?",
+            "text": "<p>Diluya una pequeña cantidad de detergente suave en agua, sumerja una esponja o un trapo de color claro en la solución, escúrralo para que esté húmedo y frote las manchas y las partes sucias de la bolsa, trabajando a contrapelo. Repita la operación hasta que desaparezcan las manchas y deje que la bolsa se seque al aire antes de utilizarla.<\/p>"
+          }
+        },
+        "tab_content_Y6eeb3": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Cómo sabré cuánto costará mi pedido?",
+            "text": "<p>Simplemente tienes que añadir artículos al carrito de la compra y hacer \"click\" en Continuar para pasar por caja. El total de su pedido se mostrará en la caja, así como los gastos de envío cuando proceda.<\/p>"
+          }
+        },
+        "tab_content_VwWXVR": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Hay algún coste adicional que deba abonar una vez reciba mi pedido?",
+            "text": "<p>El total del pedido presentado en la caja es el importe exacto que se le facturará, y no habrá costes adicionales en el momento de la entrega.<\/p>"
+          }
+        },
+        "tab_content_mHUM4F": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Qué opciones de pago se admiten?",
+            "text": "<p>Nuestro sistema de pago admite Visa, MasterCard, PayPal y American Express. Pronto ofreceremos otras opciones de pago.<br\/><\/p>"
+          }
+        },
+        "tab_content_BjhDb9": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Cuál es su política de devoluciones?",
+            "text": "<p>Si por cualquier motivo no queda satisfecho al 100% con su compra, puede devolverla en un plazo de 30 días a partir de la fecha de compra para obtener un reembolso. Póngase en contacto con nosotros en info@lilypondcanvas.com, y le daremos más instrucciones. Como es lógico, sólo aceptamos devoluciones si el producto está en su embalaje original, sin usar, con la etiqueta colgante sin cortar, sin desgaste, marcas\/arañazos, alteraciones o cualquier tipo de desperfecto.<br\/>Procesaremos el reembolso tan pronto como recibamos los artículos devueltos. Por favor, espere 1 semana para procesar el reembolso.<br\/>Debido a la naturaleza irreversible de la personalización, esta política de devolución no es válida para los artículos personalizados. Dado que el producto se personaliza de acuerdo con las instrucciones específicas del cliente, LilyPondCanvas no puede aceptar ninguna devolución una vez que la producción o la personalización ha comenzado. <\/p>"
+          }
+        },
+        "tab_content_4FW9PN": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Se pueden devolver los artículos personalizados?",
+            "text": "<p>Debido a la naturaleza irreversible de la personalización, los artículos personalizados no pueden ser reembolsados. Dado que el producto se personaliza de acuerdo con las instrucciones específicas del cliente, LilyPondCanvas no puede aceptar ninguna devolución una vez iniciada la producción o la personalización. <\/p>"
+          }
+        },
+        "tab_content_zapPQF": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Cuál es el límite de caracteres al personalizar?",
+            "text": "<p>Los bordados de palabras pueden tener un máximo de 10 caracteres para las bolsas mediana y grande, y de 5 caracteres para la bolsa pequeña. Los monogramas ocupan aproximadamente el mismo espacio en cada producto, independientemente del número de caracteres. Por lo tanto, el tamaño y la presentación de los caracteres varían en función del estilo que elija y del número de caracteres. En general, cuantos más caracteres introduzca, más pequeños serán. <br\/><\/p>"
+          }
+        },
+        "tab_content_c8EG8n": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿Es posible bordar a la vez un logotipo y una palabra?",
+            "text": "<p>Este tipo de pedidos especiales no están disponibles en la página web, pero pueden solicitarse. Envíenos un correo electrónico a info@lilypondcanvas.com para obtener más información.<\/p>"
+          }
+        },
+        "tab_content_HhWm3P": {
+          "type": "tab_content",
+          "settings": {
+            "question": "¿A qué países enviáis?",
+            "text": "<p>Hacemos envíos a toda Europa.<\/p>"
+          }
         }
       },
       "block_order": [
         "164572438495310fd3-0",
         "164572438495310fd3-1",
-        "164572438495310fd3-2"
+        "164572438495310fd3-2",
+        "tab_content_6GbgAA",
+        "tab_content_6X9Hhy",
+        "tab_content_Y6eeb3",
+        "tab_content_VwWXVR",
+        "tab_content_mHUM4F",
+        "tab_content_BjhDb9",
+        "tab_content_4FW9PN",
+        "tab_content_zapPQF",
+        "tab_content_c8EG8n",
+        "tab_content_HhWm3P"
       ],
       "settings": {
         "title": "OTRAS PREGUNTAS",
