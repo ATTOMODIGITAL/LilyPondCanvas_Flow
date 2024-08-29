@@ -129,15 +129,15 @@
         "164572438495310fd3-1": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "¿Cómo se fabrican sus productos? ¿Y dónde están hechos?",
+            "text": "<p>Nuestras bolsas están hechas a mano en Asia mediante un proceso totalmente artesanal. <\/p>"
           }
         },
         "164572438495310fd3-2": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
-            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+            "question": "¿El producto es biodegradable?",
+            "text": "<p>El algodón natural es biodegradable en un proceso que puede tardar hasta una década, pero el proceso puede acelerarse cuando se expone a la luz solar, el calor, la humedad y el aire fresco.<\/p>"
           }
         }
       },
