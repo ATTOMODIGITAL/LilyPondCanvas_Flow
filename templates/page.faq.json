@@ -100,7 +100,7 @@
         "section_padding_top": 85,
         "section_padding_bottom": 0,
         "text_overlapping_image": false,
-        "section-width": "full",
+        "section-width": "content",
         "layout": "left",
         "text_alignment": "left",
         "colors": "white"
