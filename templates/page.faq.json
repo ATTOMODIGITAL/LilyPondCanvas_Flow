@@ -35,7 +35,7 @@
       ],
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/single-yacht-on-the-water_1.png",
-        "height_desktop": "650px",
+        "height_desktop": "550px",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 19,
