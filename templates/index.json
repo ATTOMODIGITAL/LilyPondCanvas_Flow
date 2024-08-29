@@ -731,7 +731,7 @@
         "button_itxHN3"
       ],
       "custom_css": [
-        ".animated-text--content {background-color: blue !important;}"
+        "@media only screen and (max-width: 767px) {.animated-text .content-wrapper-mobile--left, .animated-text .content-wrapper-mobile--left * {text-align: center; width: 80%; background-color: white; }}"
       ],
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/bg.png",
