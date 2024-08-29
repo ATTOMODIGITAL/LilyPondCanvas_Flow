@@ -70,7 +70,7 @@
     "popup--enable": true,
     "desktop-popup-style": "slide-up",
     "favicon": "shopify:\/\/shop_images\/FAVICON.png",
-    "ken_burns_enabled": true,
+    "ken_burns_enabled": false,
     "content_for_index": [
 
     ],
