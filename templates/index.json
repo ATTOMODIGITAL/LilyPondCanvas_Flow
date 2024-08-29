@@ -735,6 +735,7 @@
         "height_desktop": "l",
         "text_size_desktop": 40,
         "text_position_desktop": "left",
+        "image_mobile": "shopify:\/\/shop_images\/mobile_collage.png",
         "height_mobile": "full",
         "text_size_mobile": 22,
         "text_position_mobile": "left",
@@ -863,54 +864,6 @@
         "color_scheme": "white"
       }
     },
-    "testimonials_VK4rYj": {
-      "type": "testimonials",
-      "blocks": {
-        "text_8FaWFy": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "testimonial_text": "<p>\"Mi bolsa grande es ideal para transportar muestras y materiales a mis clientes\"<\/p>",
-            "customer_name": "Veronica, Interiorista",
-            "link": "",
-            "stars": 0
-          }
-        },
-        "text_bpJN9N": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "testimonial_text": "<p>\"I love my medium tote bag to carry my girls’ snacks when I pick them up from school\"<\/p>",
-            "customer_name": "Genevieve, mom of two",
-            "link": "",
-            "stars": 0
-          }
-        },
-        "text_pykNTx": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "testimonial_text": "<p>\"Nada supera a mi large tote bag para pasar el weekend fuera. En casa, tenemos una cada uno\"<\/p>",
-            "customer_name": "Clara, mamá de cuatro niños",
-            "link": "",
-            "stars": 0
-          }
-        }
-      },
-      "block_order": [
-        "text_8FaWFy",
-        "text_bpJN9N",
-        "text_pykNTx"
-      ],
-      "settings": {
-        "circle_images": false,
-        "title": "TESTIMONIALS",
-        "description": "",
-        "section_padding_top": 120,
-        "section_padding_bottom": 0,
-        "colors": "white"
-      }
-    },
     "scrolling_banner_iMa7UR": {
       "type": "scrolling-banner",
       "blocks": {
@@ -955,8 +908,8 @@
         "borders": false,
         "animation_direction": "normal",
         "animation_speed": 80,
-        "section_padding_top": 0,
-        "section_padding_bottom": 60,
+        "section_padding_top": 75,
+        "section_padding_bottom": 85,
         "space_between_blocks_desktop": 80,
         "space_between_blocks_mobile": 20,
         "rotate": "0",
@@ -976,7 +929,6 @@
     "scrolling_banner_Mg4x8i",
     "animated_text_Hb7Qhi",
     "collage_GkJBgg",
-    "testimonials_VK4rYj",
     "scrolling_banner_iMa7UR"
   ]
 }
