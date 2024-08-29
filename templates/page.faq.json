@@ -220,6 +220,9 @@
         "tab_content_c8EG8n",
         "tab_content_HhWm3P"
       ],
+      "custom_css": [
+        ".section-title--wrapper {flex-direction: row ;}"
+      ],
       "settings": {
         "title": "<strong>OTRAS PREGUNTAS<\/strong>",
         "description": "",
