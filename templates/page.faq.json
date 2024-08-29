@@ -224,7 +224,7 @@
         ".section-title--wrapper {flex-direction: row; margin-left: 200px;}"
       ],
       "settings": {
-        "title": "<strong>OTRAS PREGUNTAS<\/strong>",
+        "title": "OTRAS PREGUNTAS",
         "description": "",
         "faq_icon": "plus_minus",
         "section_padding_top": 60,
