@@ -731,7 +731,7 @@
         "button_itxHN3"
       ],
       "custom_css": [
-        ".animated-text--content{background-color: blue}"
+        ".animated-text--content {background-color: blue !important;}"
       ],
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/bg.png",
