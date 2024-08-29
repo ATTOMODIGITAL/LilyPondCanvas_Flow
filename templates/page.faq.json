@@ -260,7 +260,7 @@
       ],
       "settings": {
         "section_width": "narrow",
-        "text_alignment_desktop": "center",
+        "text_alignment_desktop": "left",
         "text_alignment_mobile": "center",
         "section_padding_top": 60,
         "section_padding_bottom": 60,
