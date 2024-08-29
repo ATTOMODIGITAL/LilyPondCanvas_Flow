@@ -731,8 +731,7 @@
         "button_itxHN3"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 767px) {.animated-text .content-wrapper-mobile--left, .animated-text .content-wrapper-mobile--left * {margin: 0px; text-align: center; width: 100%; background-color: white; }}",
-        "@media only screen and (max-width: 767px) {.animated-text--content * {background-color: blue; padding: 20px; }}"
+        "@media only screen and (max-width: 767px) {.animated-text .content-wrapper-mobile--left, .animated-text .content-wrapper-mobile--left * {margin: 0px; text-align: center; width: 100%; background-color: white; }}"
       ],
       "settings": {
         "image_desktop": "shopify:\/\/shop_images\/bg.png",
