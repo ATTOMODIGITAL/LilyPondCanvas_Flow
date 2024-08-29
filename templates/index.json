@@ -590,7 +590,7 @@
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
         "section_link": "",
-        "animation_style": "parallax",
+        "animation_style": "none",
         "section_margin_top": 0,
         "section_margin_bottom": 0,
         "text_color": "#ffffff",
