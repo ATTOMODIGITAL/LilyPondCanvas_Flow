@@ -39,7 +39,7 @@
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 19,
-        "height_mobile": "300px",
+        "height_mobile": "100vh",
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
         "section_link": "",
