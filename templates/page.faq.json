@@ -222,7 +222,7 @@
       ],
       "custom_css": [
         ".section-title--wrapper {flex-direction: row; margin-left: 200px;}",
-        "@media (max-width: 767px) {.section-title--wrapper {margin-left: 0px }}"
+        "@media (max-width: 767px) {.section-title--wrapper {margin-left: 0px; flex-direction:column }}"
       ],
       "settings": {
         "title": "OTRAS PREGUNTAS",
