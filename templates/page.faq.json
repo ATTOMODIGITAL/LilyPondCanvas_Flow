@@ -1,1 +1,198 @@
-{"sections":{"image_with_text_overlay_VUCbdf":{"type":"image-with-text-overlay","blocks":{"heading_hi6wPp":{"type":"heading","settings":{}},"text_iwXneH":{"type":"text","settings":{}},"button_LakT3U":{"type":"button","settings":{}}},"block_order":["heading_hi6wPp","text_iwXneH","button_LakT3U"],"settings":{"height_desktop":"original","text_position_desktop":"center","text_position_mobile":"center","animation_style":"none"}},"main":{"type":"template--page","disabled":true,"settings":{"page_title_enabled":true,"page_width":"content"}},"16457242689a58d7f3":{"type":"accordion","blocks":{"164572426857089649-0":{"type":"tab_content","settings":{}},"164572426857089649-1":{"type":"tab_content","settings":{}},"164572426857089649-2":{"type":"tab_content","settings":{}}},"block_order":["164572426857089649-0","164572426857089649-1","164572426857089649-2"],"settings":{"faq_icon":"caret","colors":"white"}},"164572438470d85add":{"type":"accordion","blocks":{"164572438495310fd3-0":{"type":"tab_content","settings":{}},"164572438495310fd3-1":{"type":"tab_content","settings":{}},"164572438495310fd3-2":{"type":"tab_content","settings":{}}},"block_order":["164572438495310fd3-0","164572438495310fd3-1","164572438495310fd3-2"],"settings":{"faq_icon":"caret","colors":"white"}},"1645724424d6db0e5a":{"type":"accordion","blocks":{"164572442464b4aa49-0":{"type":"tab_content","settings":{}},"164572442464b4aa49-1":{"type":"tab_content","settings":{}},"164572442464b4aa49-2":{"type":"tab_content","settings":{}}},"block_order":["164572442464b4aa49-0","164572442464b4aa49-1","164572442464b4aa49-2"],"settings":{"faq_icon":"caret","colors":"white"}},"1645724501b902ee9b":{"type":"rich-text","blocks":{"bc4025b5-129f-46b8-8cae-abfa4c5f4e2a":{"type":"heading","settings":{"heading":"Still need assistance?"}},"6d07b405-3374-4f17-b28d-17e359b5102b":{"type":"richtext","settings":{"text":"<p>Use this section to direct your customers to your contact form to further assistance<\/p>","text_size":14}},"f391f3ae-8651-4404-a582-ed557905006e":{"type":"button","settings":{"button_text":"Contact us"}}},"block_order":["bc4025b5-129f-46b8-8cae-abfa4c5f4e2a","6d07b405-3374-4f17-b28d-17e359b5102b","f391f3ae-8651-4404-a582-ed557905006e"],"settings":{"section_width":"narrow","text_alignment_desktop":"center","text_alignment_mobile":"center","colors":"light"}},"0a7925da-021c-4303-a883-f17246eb32f5":{"type":"logo-list","blocks":{"template--14795085643846__0a7925da-021c-4303-a883-f17246eb32f5-1687272726bf441aa1-0":{"type":"logo_image","settings":{}},"template--14795085643846__0a7925da-021c-4303-a883-f17246eb32f5-1687272726bf441aa1-1":{"type":"logo_image","settings":{}},"template--14795085643846__0a7925da-021c-4303-a883-f17246eb32f5-1687272726bf441aa1-2":{"type":"logo_image","settings":{}},"template--14795085643846__0a7925da-021c-4303-a883-f17246eb32f5-1687272726bf441aa1-3":{"type":"logo_image","settings":{}},"1d3de4d5-1cd4-4328-8ede-a844b0636851":{"type":"logo_image","settings":{}}},"block_order":["template--14795085643846__0a7925da-021c-4303-a883-f17246eb32f5-1687272726bf441aa1-0","template--14795085643846__0a7925da-021c-4303-a883-f17246eb32f5-1687272726bf441aa1-1","template--14795085643846__0a7925da-021c-4303-a883-f17246eb32f5-1687272726bf441aa1-2","template--14795085643846__0a7925da-021c-4303-a883-f17246eb32f5-1687272726bf441aa1-3","1d3de4d5-1cd4-4328-8ede-a844b0636851"],"settings":{"width":100,"title":"Say hello via our socials","colors":"white"}},"164735127315c846ad":{"type":"gallery","blocks":{"164735127391452ea4-0":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","title":"Heading","subheading":"Subheading","overlay-btn-text":"","show-gradient-overlay":true}},"164735127391452ea4-1":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","title":"Heading","subheading":"Subheading","overlay-btn-text":"","show-gradient-overlay":true}},"164735127391452ea4-2":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","title":"Heading","subheading":"Subheading","overlay-btn-text":"","show-gradient-overlay":true}},"93a09d38-dc11-40f6-b293-f5a8e245fc82":{"type":"image","settings":{"link":"shopify:\/\/collections\/all","title":"Heading","subheading":"Subheading","overlay-btn-text":"","show-gradient-overlay":true}}},"block_order":["164735127391452ea4-0","164735127391452ea4-1","164735127391452ea4-2","93a09d38-dc11-40f6-b293-f5a8e245fc82"],"settings":{"content-position":"hover","section_padding_top":0,"section_padding_bottom":0,"section-width":"full","remove-spacing":true,"full-width":false,"colors":"light"}}},"order":["image_with_text_overlay_VUCbdf","main","16457242689a58d7f3","164572438470d85add","1645724424d6db0e5a","1645724501b902ee9b","0a7925da-021c-4303-a883-f17246eb32f5","164735127315c846ad"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "image_with_text_overlay_VUCbdf": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_hi6wPp": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text overlay",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_iwXneH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add an image paired with text to give focus to your chosen product, collection, or blog post.<\/p>",
+            "font_size_desktop": 16,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_LakT3U": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify:\/\/collections",
+            "first_button_label": "Shop now",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "buttons_bottom_spacing": 20,
+            "buttons_text": "#FFFFFF",
+            "buttons_background": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hi6wPp",
+        "text_iwXneH",
+        "button_LakT3U"
+      ],
+      "disabled": true,
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#242424",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#FFFFFF",
+        "image_overlay_opacity": 0
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "content"
+      }
+    },
+    "16457242689a58d7f3": {
+      "type": "accordion",
+      "blocks": {
+        "164572426857089649-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572426857089649-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572426857089649-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572426857089649-0",
+        "164572426857089649-1",
+        "164572426857089649-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Frequently asked questions",
+        "description": "",
+        "faq_icon": "caret",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "164572438470d85add": {
+      "type": "accordion",
+      "blocks": {
+        "164572438495310fd3-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572438495310fd3-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        },
+        "164572438495310fd3-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "text": "<p>Here you can place an explanation or answer to the question.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572438495310fd3-0",
+        "164572438495310fd3-1",
+        "164572438495310fd3-2"
+      ],
+      "settings": {
+        "title": "OTRAS PREGUNTAS",
+        "description": "",
+        "faq_icon": "caret",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "1645724501b902ee9b": {
+      "type": "rich-text",
+      "blocks": {
+        "6d07b405-3374-4f17-b28d-17e359b5102b": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Si tienes cualquier otra duda no dudes en contactarnos.<\/p>",
+            "text_size": 14
+          }
+        },
+        "f391f3ae-8651-4404-a582-ed557905006e": {
+          "type": "button",
+          "settings": {
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_text": "Contacto",
+            "buttons_style": "filled"
+          }
+        }
+      },
+      "block_order": [
+        "6d07b405-3374-4f17-b28d-17e359b5102b",
+        "f391f3ae-8651-4404-a582-ed557905006e"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "light"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_VUCbdf",
+    "main",
+    "16457242689a58d7f3",
+    "164572438470d85add",
+    "1645724501b902ee9b"
+  ]
+}
