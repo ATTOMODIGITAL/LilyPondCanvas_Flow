@@ -98,6 +98,16 @@
             "margin_bottom": 20
           }
         },
+        "customify_customize_product_customize_area_section_b9wAfV": {
+          "type": "shopify:\/\/apps\/customify-customize-product\/blocks\/customize-area-section\/0cb55c9f-fdee-4f0f-864c-f296929a4bbb",
+          "settings": {
+            "canvasSelector": "",
+            "priceSelector": "",
+            "quantitySelector": "",
+            "checkoutSelector": "",
+            "liquid_code_product": ""
+          }
+        },
         "a55b9011-1b1a-4353-9d97-7bdcd60949f2": {
           "type": "product-description",
           "settings": {
@@ -139,6 +149,7 @@
         "linked_products_TJjRLr",
         "quantity",
         "buy_buttons",
+        "customify_customize_product_customize_area_section_b9wAfV",
         "a55b9011-1b1a-4353-9d97-7bdcd60949f2",
         "fbfe241f-1b44-41cd-ae22-e866bdad9aaf",
         "4fdb087c-4728-4785-b270-a71a092b7898"
