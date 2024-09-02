@@ -19,7 +19,7 @@
       <form action="{{ routes.cart_url }}" method="post" novalidate class="cart table-wrap" data-wetheme-section-type="template--cart" data-wetheme-section-id="template--cart">
         <table class="cart-table full table--responsive">
           <thead class="cart__row cart__header-labels">
-            <th scope="row" colspan="2" class="text-center">{{ 'cart.label.product' | t }}</th>
+            <th scope="row" colspan="2" class="text-center"></th>
             <th scope="row" class="text-center">{{ 'cart.label.price' | t }}</th>
             <th scope="row" class="text-center">{{ 'cart.label.quantity' | t }}</th>
             <th scope="row" class="text-center">{{ 'cart.label.total' | t }}</th>
@@ -34,19 +34,7 @@
                         - http://docs.shopify.com/themes/filters/product-img-url
                     {% endcomment %}
                     {% capture cart_page_product_image_alt %}{{ item.image.alt | default: item.title | escape }}{% endcapture %}
-
-                      {% assign cst_idx = shop.metafields.customify.idx %}
-        {% if item.properties[cst_idx] %}
-        <div>
-          <div>
-            <img src="{{ shop.url }}/apps/customify?show_custom=1&id={{ item.properties[cst_idx] }}" style='width: 60px; max-width: 100%; position:static !important;' alt="{{ item.title | escape }}" />
-            <img src="{{ shop.url }}/apps/customify?show_custom=1&type=full-2&id={{ item.properties[cst_idx] }}" style='width: 60px; max-width: 100%; position:static !important;' alt="{{ item.title | escape }}" onError="style.display = 'none';"/>
-          </div>
-        </div>
-        {% else %}
-          {% render 'responsive-image' with item.image, alt: cart_page_product_image_alt, blur: false %}
-      {% endif %}
-                    
+                    {% render 'responsive-image' with item.image, alt: cart_page_product_image_alt, blur: false %}
                   </a>
                 </td>
                 <td class="cart__row--product-details">
@@ -188,7 +176,7 @@
           {% if settings.giftwrap_gift_note %}
             <div class="grid__item two-thirds medium--one-whole small--one-whole">
               <label for="CartGiftNote" class="label-font">{{ 'products.general.giftwrap_note' | t }}</label>
-              <textarea id="CartGiftNote" class="input-full" placeholder="Introduce tu mensaje" name="attributes[gift_note]">{{ cart.attributes.gift_note }}</textarea>
+              <textarea id="CartGiftNote" class="input-full" placeholder="test" name="attributes[gift_note]">{{ cart.attributes.gift_note }}</textarea>
             </div>
           {% endif %}
           <div class="grid__item text-right{% if settings.cart_notes_enable %} one-third medium--one-whole small--one-whole{% endif %}">
@@ -217,7 +205,6 @@
               {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
                 {{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
               {%- elsif cart.taxes_included -%}
-                <strong>{{ 'cart.general.taxes_included_but_shipping_at_checkout_text' | t }}</strong>
                 {{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}
               {%- elsif shop.shipping_policy.body != blank -%}
                 {{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
