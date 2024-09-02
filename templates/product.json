@@ -90,14 +90,6 @@
             "margin_bottom": 40
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_smart_checkout": false,
-            "enable_gift_card_recipient_form": true,
-            "margin_bottom": 20
-          }
-        },
         "customify_customize_product_customize_area_section_b9wAfV": {
           "type": "shopify:\/\/apps\/customify-customize-product\/blocks\/customize-area-section\/0cb55c9f-fdee-4f0f-864c-f296929a4bbb",
           "settings": {
@@ -106,6 +98,14 @@
             "quantitySelector": "",
             "checkoutSelector": "",
             "liquid_code_product": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": false,
+            "enable_gift_card_recipient_form": true,
+            "margin_bottom": 20
           }
         },
         "a55b9011-1b1a-4353-9d97-7bdcd60949f2": {
@@ -148,8 +148,8 @@
         "f0f0e917-92a5-4957-a68e-2d0bb38d7819",
         "linked_products_TJjRLr",
         "quantity",
-        "buy_buttons",
         "customify_customize_product_customize_area_section_b9wAfV",
+        "buy_buttons",
         "a55b9011-1b1a-4353-9d97-7bdcd60949f2",
         "fbfe241f-1b44-41cd-ae22-e866bdad9aaf",
         "4fdb087c-4728-4785-b270-a71a092b7898"
