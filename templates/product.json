@@ -93,8 +93,8 @@
         "customify_customize_product_customize_area_section_b9wAfV": {
           "type": "shopify:\/\/apps\/customify-customize-product\/blocks\/customize-area-section\/0cb55c9f-fdee-4f0f-864c-f296929a4bbb",
           "settings": {
-            "canvasSelector": "",
-            "priceSelector": "",
+            "canvasSelector": "product-media",
+            "priceSelector": "#ProductPrice",
             "quantitySelector": "",
             "checkoutSelector": "",
             "liquid_code_product": ""
