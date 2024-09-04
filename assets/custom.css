@@ -54,7 +54,7 @@
 @media (min-width: 1024px) {
   .canvas-container{
     background-color: blue;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     align-content: end;
     justify-content: end;
