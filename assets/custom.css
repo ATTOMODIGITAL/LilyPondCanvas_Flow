@@ -56,6 +56,9 @@
 }
 
 @media (min-width: 1024px) {
+  #rigth-side{
+    background-color: blue !important;
+  }
   .canvas-container{
     margin-left: 10% !important;
     display: flex !important;
