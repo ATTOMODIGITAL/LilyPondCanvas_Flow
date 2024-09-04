@@ -57,7 +57,8 @@
 }
 
 .custom-select-trigger {
-  background-color: transparent !important
+  background-color: transparent !important;
+  color: black !important
 }
 
 #toolbar{
