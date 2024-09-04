@@ -58,7 +58,7 @@
 @media (min-width: 1024px) {
   #right-side{
     background-color: blue !important;
-    padding: 10px !important;
+    padding: 40px !important;
   }
   .canvas-container{
     margin-left: 10% !important;
