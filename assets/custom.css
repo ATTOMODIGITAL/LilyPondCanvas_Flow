@@ -35,6 +35,10 @@
   color: #e6e5e7;
 }
 
+#toolbar{
+  display:none
+}
+
 @media (max-width: 480px) {
   #custom-input-group {
     padding-left: 20%;
