@@ -51,13 +51,13 @@
 .lower-canvas{
     border: none !important
 }
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .upper-canvas, .lower-canvas {
     height: 80% !important;
     width: 80% !important;
     aspect-ratio: 1.10 / 1 !important; /* Relación de aspecto basada en tus dimensiones */
   }
-}
+} */
 .personalized_buy_link {
   color: #e6e5e7;
 }
