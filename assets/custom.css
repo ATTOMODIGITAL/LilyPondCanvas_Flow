@@ -50,7 +50,13 @@
 
 .lower-canvas{
     border: none !important
-
+}
+@media (min-width: 1024px) {
+  .upper-canvas,
+  .lower-canvas {
+    height: 500px; /* Ajusta este valor según tus necesidades */
+    border: none !important;
+  }
 }
 
 .personalized_buy_link {
