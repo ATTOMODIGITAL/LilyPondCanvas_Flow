@@ -40,6 +40,10 @@
   padding: 10px calc(15px + 20px);
 }
 
+.container-main{
+  display: none !important
+}
+
 .upper-canvas {
   border: none !important
 }
