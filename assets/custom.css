@@ -38,6 +38,9 @@
 #toolbar{
   display:none !important
 }
+.jscolor{
+  display:none !important
+}
 
 @media (max-width: 480px) {
   #custom-input-group {
