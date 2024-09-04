@@ -54,7 +54,7 @@
 @media (min-width: 1024px) {
   .upper-canvas,
   .lower-canvas {
-    height: 500px; /* Ajusta este valor según tus necesidades */
+    height: 500px !important; /* Ajusta este valor según tus necesidades */
     border: none !important;
   }
 }
