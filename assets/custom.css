@@ -39,6 +39,10 @@
   display: none !important
 }
 
+.cst-font-styling{
+  display:none
+}
+
 #toolbar{
   display:none !important
 }
