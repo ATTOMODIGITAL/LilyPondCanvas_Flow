@@ -56,7 +56,7 @@
 }
 
 @media (min-width: 1024px) {
-  #rigth-side{
+  #right-side{
     background-color: blue !important;
   }
   .canvas-container{
