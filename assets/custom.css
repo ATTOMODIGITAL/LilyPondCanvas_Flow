@@ -53,8 +53,8 @@
 }
 @media (min-width: 1024px) {
   .upper-canvas, .lower-canvas {
-    height: 60% !important;
-    width: 60% !important;
+    height: 70% !important;
+    width: 70% !important;
     aspect-ratio: 1.10 / 1 !important; /* Relación de aspecto basada en tus dimensiones */
   }
 }
