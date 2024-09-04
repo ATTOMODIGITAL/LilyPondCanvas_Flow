@@ -40,6 +40,10 @@
   padding: 10px calc(15px + 20px);
 }
 
+.upper-canvas {
+  border: none !important
+}
+
 .personalized_buy_link {
   color: #e6e5e7;
 }
