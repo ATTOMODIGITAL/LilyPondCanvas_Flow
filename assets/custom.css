@@ -35,6 +35,10 @@
   color: #e6e5e7;
 }
 
+#inner {
+  display: none !important
+}
+
 #toolbar{
   display:none !important
 }
