@@ -52,8 +52,7 @@
     border: none !important
 }
 @media (min-width: 1024px) {
-  
-.upper-canvas, .lower-canvas {
+  .upper-canvas, .lower-canvas {
     width: 100%; /* Ajustar al ancho del contenedor */
     aspect-ratio: 1.10 / 1; /* Relación de aspecto basada en tus dimensiones */
 }
