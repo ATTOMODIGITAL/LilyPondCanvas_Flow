@@ -1,4 +1,4 @@
-/* Place any CSS overrides in this file. */
+/* /* Place any CSS overrides in this file. */
 
 #customify-link {
   width: 100%;
@@ -70,7 +70,7 @@
     margin-top: -7vh;
     height: 80% !important;
     width: 80% !important;
-    aspect-ratio: 1.10 / 1 !important; /* Relación de aspecto basada en tus dimensiones */
+    aspect-ratio: 1.10 / 1 !important;
   }
 }
 .personalized_buy_link {
@@ -111,3 +111,4 @@
     padding-right: 20%;
   }
 }
+ */
