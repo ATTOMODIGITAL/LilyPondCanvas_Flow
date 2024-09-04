@@ -34,30 +34,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ settings.favicon | image_url: width: 16, height: 16, crop: 'center' }}">
   {% endif %}
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      console.log("hi thereeee")
-    // Seleccionar el elemento específico con la clase
-      var imageCanvas = document.querySelector(".cl-po--preview canvas");
-
-      if (imageCanvas) {
-        // Desactivar eventos onclick y ondrag
-        imageCanvas.onclick = null;
-        imageCanvas.ondrag = null;
-        
-        // O deshabilitar cualquier evento usando addEventListener
-        imageCanvas.addEventListener("click", function(e) {
-            e.stopPropagation();
-            e.preventDefault();
-        }, true);
-        
-        imageCanvas.addEventListener("drag", function(e) {
-            e.stopPropagation();
-            e.preventDefault();
-        }, true);
-    }
-  });
-  </script>
 
 
   {%- unless settings.type_header_font.system? -%}
