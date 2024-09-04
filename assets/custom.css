@@ -51,6 +51,10 @@
 .lower-canvas{
     border: none !important
 }
+.wrapper-outter-switcher{
+    display: none !important
+}
+
 @media (min-width: 1024px) {
   .canvas-container{
     background-color: blue;
