@@ -36,11 +36,11 @@
 }
 
 .inner {
-  display: none !important
+  display:none !important
 }
 
 .cst-font-styling{
-  display:none
+  display:none !important
 }
 
 #toolbar{
