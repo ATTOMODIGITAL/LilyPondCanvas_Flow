@@ -54,6 +54,7 @@
 @media (min-width: 1024px) {
   .canvas-container{
     background-color: blue;
+    display: flex;
   }
   .upper-canvas, .lower-canvas {
     margin-top: -5vh;
