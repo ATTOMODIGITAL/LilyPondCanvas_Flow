@@ -55,6 +55,8 @@
   .canvas-container{
     background-color: blue;
     display: flex;
+    flex-direction: row;
+    align-content: end;
   }
   .upper-canvas, .lower-canvas {
     margin-top: -5vh;
