@@ -57,6 +57,7 @@
 
 @media (min-width: 1024px) {
   .canvas-container{
+    margin-left: 10% !important;
     background-color: blue;
     display: flex !important;
     flex-direction: row;
