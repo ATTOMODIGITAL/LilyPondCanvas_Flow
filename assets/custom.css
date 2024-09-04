@@ -35,6 +35,10 @@
   color: #e6e5e7;
 }
 
+.kanan{
+  display:none
+}
+
 .inner {
   display:none !important
 }
