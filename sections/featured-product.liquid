@@ -44,7 +44,7 @@
   <div class="width--content product-single" data-section-id="{{ section.id }}" data-product-content-wrapper>
 
     {% comment %} Section title and description {% endcomment %}
-    {% render 'dynamic-section-header' with section_title: section.settings.title, section_description: section.settings.description %}
+    {% render 'dynamic-section-header' with section_title, section_title: section.settings.title, section_description: section.settings.description %}
 
     {% capture all_media %}
       <div class="grid__item large--one-half product-images">
@@ -180,7 +180,7 @@
                   {% if section.settings.show_add_to_cart %}
                     {% assign element_id = 'featured-product-atc-' | append: section.id %}
                     {%- assign product_form_id = 'featured-product-form-' | append: section.id -%}
-                    {% render 'payment-buttons' with product: product, element_id: element_id, block: block, product_form_id: product_form_id, section_id: section.id, show_buy_now: section.settings.show_smart_checkout, gift_card_form_enabled: false %}
+                    {% render 'payment-buttons' with product, product: product, element_id: element_id, block: block, product_form_id: product_form_id, section_id: section.id, show_buy_now: section.settings.show_smart_checkout, gift_card_form_enabled: false %}
                   {% endif %}
 
                 </div>
@@ -308,13 +308,7 @@
               {% comment %} TEXT WITH ICON BLOCK {% endcomment %}
               {% when 'text-with-icon' %}
                 <div class="{{ spacing_classes }}">
-                  {% render 'text-with-icon' with icon: block.settings.icon, 
-                    text: block.settings.text, 
-                    link: block.settings.link, 
-                    borders: true, 
-                    block_attributes: block.shopify_attributes,
-                    classes: spacing_classes
-                  %}
+                  {% render 'text-with-icon' with icon, icon: block.settings.icon, text: block.settings.text, link: block.settings.link, borders: true, block_attributes: block.shopify_attributes, classes: spacing_classes %}
                 </div>
 
               {% comment %} STOCK LEVEL INDICATOR BLOCK {% endcomment %}
@@ -323,20 +317,7 @@
                   data-block-id="featured-product-stock-level-{{ section.id }}" 
                   class="{{ spacing_classes }}"
                 >
-                  {% render 'stock-level-indicator' with 
-                    block_attributes: block.shopify_attributes,
-                    stock_product: product,
-                    stock_variant: current_variant,
-                    stock_style: block.settings.stock-level-indicator-style,
-                    stock_bar_color: block.settings.bar-indicator-color,
-                    stock_indicator_animation: block.settings.stock_indicator_animation,
-                    stock_amt: block.settings.stock-range,
-                    stock_notice: block.settings.stock-level-notice,
-                    show_stock_count: block.settings.show-stock-count,
-                    in_stock_message: block.settings.in-stock-message,
-                    low_stock_message: block.settings.low-stock-message,
-                    out_of_stock_message: block.settings.out-of-stock-message
-                  %}
+                  {% render 'stock-level-indicator' with block_attributes, block_attributes: block.shopify_attributes, stock_product: product, stock_variant: current_variant, stock_style: block.settings.stock-level-indicator-style, stock_bar_color: block.settings.bar-indicator-color, stock_indicator_animation: block.settings.stock_indicator_animation, stock_amt: block.settings.stock-range, stock_notice: block.settings.stock-level-notice, show_stock_count: block.settings.show-stock-count, in_stock_message: block.settings.in-stock-message, low_stock_message: block.settings.low-stock-message, out_of_stock_message: block.settings.out-of-stock-message %}
                 </div>
                 
             {% endcase %}
@@ -960,3 +941,48 @@
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'dynamic-section-header' with section_title: section.settings.title,
+    section_description: section.settings.description %}"
+  to: "{% render 'dynamic-section-header' with section_title, section_title: section.settings.title,
+    section_description: section.settings.description %}"
+  position: 1877..2023
+- from: "{% render 'payment-buttons' with product: product, element_id: element_id,
+    block: block, product_form_id: product_form_id, section_id: section.id, show_buy_now:
+    section.settings.show_smart_checkout, gift_card_form_enabled: false %}"
+  to: "{% render 'payment-buttons' with product, product: product, element_id: element_id,
+    block: block, product_form_id: product_form_id, section_id: section.id, show_buy_now:
+    section.settings.show_smart_checkout, gift_card_form_enabled: false %}"
+  position: 9323..9563
+- from: "{% render 'text-with-icon' with icon: block.settings.icon, \n                    text:
+    block.settings.text, \n                    link: block.settings.link, \n                    borders:
+    true, \n                    block_attributes: block.shopify_attributes,\n                    classes:
+    spacing_classes\n                  %}"
+  to: "{% render 'text-with-icon' with icon, icon: block.settings.icon, text: block.settings.text,
+    link: block.settings.link, borders: true, block_attributes: block.shopify_attributes,
+    classes: spacing_classes %}"
+  position: 15903..16108
+- from: "{% render 'stock-level-indicator' with \n                    block_attributes:
+    block.shopify_attributes,\n                    stock_product: product,\n                    stock_variant:
+    current_variant,\n                    stock_style: block.settings.stock-level-indicator-style,\n
+    \                   stock_bar_color: block.settings.bar-indicator-color,\n                    stock_indicator_animation:
+    block.settings.stock_indicator_animation,\n                    stock_amt: block.settings.stock-range,\n
+    \                   stock_notice: block.settings.stock-level-notice,\n                    show_stock_count:
+    block.settings.show-stock-count,\n                    in_stock_message: block.settings.in-stock-message,\n
+    \                   low_stock_message: block.settings.low-stock-message,\n                    out_of_stock_message:
+    block.settings.out-of-stock-message\n                  %}"
+  to: "{% render 'stock-level-indicator' with block_attributes, block_attributes:
+    block.shopify_attributes, stock_product: product, stock_variant: current_variant,
+    stock_style: block.settings.stock-level-indicator-style, stock_bar_color: block.settings.bar-indicator-color,
+    stock_indicator_animation: block.settings.stock_indicator_animation, stock_amt:
+    block.settings.stock-range, stock_notice: block.settings.stock-level-notice, show_stock_count:
+    block.settings.show-stock-count, in_stock_message: block.settings.in-stock-message,
+    low_stock_message: block.settings.low-stock-message, out_of_stock_message: block.settings.out-of-stock-message
+    %}"
+  position: 16441..17080
+{% endcomment %}

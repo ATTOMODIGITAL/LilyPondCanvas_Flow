@@ -34,7 +34,7 @@
     <div class="homepage-gallery-background{% if section.settings.section-width == 'content' %} width--content{% endif %}">
 
       {% comment %} Section title and description {% endcomment %}
-      {% render 'dynamic-section-header' with section_title: section.settings.title, section_description: section.settings.description %}
+      {% render 'dynamic-section-header' with section_title, section_title: section.settings.title, section_description: section.settings.description %}
 
         <div class="gallery-grid gallery-grid--items-{{ section.blocks.size }} expand-grid{% if section.settings.remove-spacing %} remove-spacing{% else %} keep-spacing{% endif %}{% if no_images %} no-user-images{% endif %} content-position-{{ section.settings.content-position }}{% if section.settings.full-width %} gallery-full-width{% endif %}">
           {% for block in section.blocks %}
@@ -378,3 +378,15 @@
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'dynamic-section-header' with section_title: section.settings.title,
+    section_description: section.settings.description %}"
+  to: "{% render 'dynamic-section-header' with section_title, section_title: section.settings.title,
+    section_description: section.settings.description %}"
+  position: 1337..1483
+{% endcomment %}

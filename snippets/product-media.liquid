@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
                       
                       </a>
                     {% else %}
-                      {% render 'deferred-media' with delayed_media: media, section_id: section_id, enable_video_loop: enable_video_loop, padding_style: padding_style, media_wrapper_classes: 'product-single__media__wrapper' %}
+                      {% render 'deferred-media' with delayed_media, delayed_media: media, section_id: section_id, enable_video_loop: enable_video_loop, padding_style: padding_style, media_wrapper_classes: 'product-single__media__wrapper' %}
                     {% endif %}
                   </div>
                 </div>
@@ -244,7 +244,7 @@ document.addEventListener("DOMContentLoaded", function() {
                       </div>
                     {% elsif media.media_type == 'video' or media.media_type == 'external_video' %}
                       <div class="product-medias__emblem">
-                        {% render 'theme-icon' with icon: 'play', iconSize: 20 %}
+                        {% render 'theme-icon' with icon, icon: 'play', iconSize: 20 %}
                       </div>
                     {% endif %}
 
@@ -265,7 +265,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         {{ media.alt }}
                       {% endif %}
                     {% endcapture %}
-                    {% render 'responsive-image' with media.preview_image, class: class, alt: thumbalt | escape, default_size: '300x', props: props, blur: false, styles: styles %}
+                    {% render 'responsive-image' with media.preview_image, class: class, alt: thumbalt, default_size: '300x', props: props, blur: false, styles: styles %}
                     </div>
                 {% endunless %}
               </div>
@@ -275,4 +275,26 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
     {% endif %}
   </div>
-</product-media>
+</product-media>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'deferred-media' with delayed_media: media, section_id: section_id,
+    enable_video_loop: enable_video_loop, padding_style: padding_style, media_wrapper_classes:
+    'product-single__media__wrapper' %}"
+  to: "{% render 'deferred-media' with delayed_media, delayed_media: media, section_id:
+    section_id, enable_video_loop: enable_video_loop, padding_style: padding_style,
+    media_wrapper_classes: 'product-single__media__wrapper' %}"
+  position: 6960..7179
+- from: "{% render 'theme-icon' with icon: 'play', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'play', iconSize: 20 %}"
+  position: 11430..11493
+- from: "{% render 'responsive-image' with media.preview_image, class: class, alt:
+    thumbalt | escape, default_size: '300x', props: props, blur: false, styles: styles
+    %}"
+  to: "{% render 'responsive-image' with media.preview_image, class: class, alt: thumbalt,
+    default_size: '300x', props: props, blur: false, styles: styles %}"
+  position: 12615..12765
+{%- endcomment -%}

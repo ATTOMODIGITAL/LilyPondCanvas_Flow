@@ -124,7 +124,7 @@
             </span>
 
             {% comment %} ===== Loading icon ===== {% endcomment %}
-            {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x hidden', iconAttributes: loading_icon_attributes, iconSize: '1.6em', icon_fill: settings.color_primary_button_text %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
+            {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x hidden', iconAttributes: loading_icon_attributes, iconSize: '1.6em', icon_fill: settings.color_primary_button_text %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
           </button>
 
           {% comment %} ===== Dynamic buttons ===== {% endcomment %}
@@ -198,3 +198,17 @@
     </div>
   {%- endif -%}
 </div>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x
+    hidden', iconAttributes: loading_icon_attributes, iconSize: '1.6em', icon_fill:
+    settings.color_primary_button_text %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x hidden', iconAttributes: loading_icon_attributes, iconSize: '1.6em',
+    icon_fill: settings.color_primary_button_text %}"
+  position: 5265..5466
+{% endcomment %}

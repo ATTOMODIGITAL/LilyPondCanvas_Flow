@@ -47,7 +47,7 @@
       >
         <span data-selected-option class="header--supporting-text">{{ dropdown_option.selected_value }}</span>
         <span class="icon-dropdown inline-icon--wrapper">
-          {% render 'theme-icon' with icon: 'chevron_down' %}
+          {% render 'theme-icon' with icon, icon: 'chevron_down' %}
         </span>
       </button>
 
@@ -122,4 +122,13 @@
       </ul>
     </div>
   </variant-dropdown>
-{% endif %}
+{% endif %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'chevron_down' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'chevron_down' %}"
+  position: 2621..2678
+{%- endcomment -%}

@@ -70,7 +70,7 @@
         data-media-play-button
         aria-label="{{ 'general.accessibility.play_icon.play_media' | t }}"
       >
-        {% render 'theme-icon' with icon: 'play', iconSize: 20 %}
+        {% render 'theme-icon' with icon, icon: 'play', iconSize: 20 %}
       </button>
     {% endif %}
 
@@ -83,8 +83,20 @@
         data-media-play-button
         aria-label="{{ 'general.accessibility.3d_model.load_3d_model' | t }}"
       >
-        {% render 'theme-icon' with icon: 'cube', iconSize: 20 %}
+        {% render 'theme-icon' with icon, icon: 'cube', iconSize: 20 %}
       </button>
     {% endif %}
   </deferred-media>
-{% endif %}
+{% endif %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'play', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'play', iconSize: 20 %}"
+  position: 3955..4018
+- from: "{% render 'theme-icon' with icon: 'cube', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'cube', iconSize: 20 %}"
+  position: 4416..4479
+{%- endcomment -%}

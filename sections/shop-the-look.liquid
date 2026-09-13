@@ -24,7 +24,7 @@
 
   <div class="width--narrow">
     {% comment %} Section title and description {% endcomment %}
-    {% render 'dynamic-section-header' with section_title: section.settings.title, section_description: section.settings.description %}
+    {% render 'dynamic-section-header' with section_title, section_title: section.settings.title, section_description: section.settings.description %}
 
     {% if section.blocks.size > 0 %}
       <shop-the-look class="shop-the-look__content" data-section-id="{{ section.id }}">
@@ -172,7 +172,7 @@
           {% comment %} Mobile modal close (X) button {% endcomment %}
           <button type="button" data-close-modal-btn class="shop-the-look__modal-close icon-fallback-text standalone-icon--wrapper" aria-label="{{ 'general.accessibility.dismiss.close' | t }}">
             <span class="fallback-text">{{ 'general.accessibility.dismiss.close' | t }}</span>
-            {% render 'theme-icon' with icon: 'close', iconSize: 20 %}
+            {% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}
           </button>
         </div>
       </shop-the-look>
@@ -446,3 +446,18 @@
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'dynamic-section-header' with section_title: section.settings.title,
+    section_description: section.settings.description %}"
+  to: "{% render 'dynamic-section-header' with section_title, section_title: section.settings.title,
+    section_description: section.settings.description %}"
+  position: 1253..1399
+- from: "{% render 'theme-icon' with icon: 'close', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}"
+  position: 9681..9745
+{% endcomment %}

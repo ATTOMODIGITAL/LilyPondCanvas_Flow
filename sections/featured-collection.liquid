@@ -19,7 +19,7 @@
 >
   <div class="width--content">
     {% comment %} Section title and description {% endcomment %}
-    {% render 'dynamic-section-header' with section_title: section.settings.title, section_description: section.settings.description, wrapper_classes: wrapper_classes %}
+    {% render 'dynamic-section-header' with section_title, section_title: section.settings.title, section_description: section.settings.description, wrapper_classes: wrapper_classes %}
 
     <div class="homepage-indiv-section-wrapper grid--full homepage-featured-content-wrapper">
       {% liquid 
@@ -314,4 +314,17 @@
     ]
   }
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'dynamic-section-header' with section_title: section.settings.title,
+    section_description: section.settings.description, wrapper_classes: wrapper_classes
+    %}"
+  to: "{% render 'dynamic-section-header' with section_title, section_title: section.settings.title,
+    section_description: section.settings.description, wrapper_classes: wrapper_classes
+    %}"
+  position: 1136..1316
+{%- endcomment -%}
